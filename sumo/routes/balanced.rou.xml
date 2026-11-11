@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Starter "normal balanced" scenario: 300 veh/h per approach for 1800 s,
+     split 60% straight (180), 20% left (60), 20% right (60).
+     Per-seed scenario files will be generated later by scripts. -->
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="13.89"/>
+
+    <!-- From North -->
+    <route id="N_s" edges="N2C C2S"/>
+    <route id="N_l" edges="N2C C2E"/>
+    <route id="N_r" edges="N2C C2W"/>
+    <!-- From South -->
+    <route id="S_s" edges="S2C C2N"/>
+    <route id="S_l" edges="S2C C2W"/>
+    <route id="S_r" edges="S2C C2E"/>
+    <!-- From East -->
+    <route id="E_s" edges="E2C C2W"/>
+    <route id="E_l" edges="E2C C2S"/>
+    <route id="E_r" edges="E2C C2N"/>
+    <!-- From West -->
+    <route id="W_s" edges="W2C C2E"/>
+    <route id="W_l" edges="W2C C2N"/>
+    <route id="W_r" edges="W2C C2S"/>
+
+    <flow id="f_N_s" type="car" route="N_s" begin="0" end="1800" vehsPerHour="180" departLane="best" departSpeed="max"/>
+    <flow id="f_N_l" type="car" route="N_l" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+    <flow id="f_N_r" type="car" route="N_r" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+
+    <flow id="f_S_s" type="car" route="S_s" begin="0" end="1800" vehsPerHour="180" departLane="best" departSpeed="max"/>
+    <flow id="f_S_l" type="car" route="S_l" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+    <flow id="f_S_r" type="car" route="S_r" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+
+    <flow id="f_E_s" type="car" route="E_s" begin="0" end="1800" vehsPerHour="180" departLane="best" departSpeed="max"/>
+    <flow id="f_E_l" type="car" route="E_l" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+    <flow id="f_E_r" type="car" route="E_r" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+
+    <flow id="f_W_s" type="car" route="W_s" begin="0" end="1800" vehsPerHour="180" departLane="best" departSpeed="max"/>
+    <flow id="f_W_l" type="car" route="W_l" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+    <flow id="f_W_r" type="car" route="W_r" begin="0" end="1800" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+</routes>

@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated outputs
+models/*
+results/*
+!models/.gitkeep
+!results/.gitkeep
+# Keep baseline evaluation results (small, back up the README numbers)
+!results/eval/
+
+# SUMO run outputs
+*.out.xml
+tripinfo*.xml
+
+# Generated demand (rebuild with scripts/generate_scenarios.py; manifest is kept)
+sumo/routes/generated/*/
+
+# Web
+web/node_modules/
+web/.next/
+web/dist/

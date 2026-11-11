@@ -1,0 +1,49 @@
+{
+  "margin": 1,
+  "selected_on": "validation",
+  "rule": "lowest mean avg_wait among margins with unserved <= best + 1",
+  "sweep": {
+    "0": {
+      "avg_wait": 13.34,
+      "max_wait": 71.88,
+      "unserved": 0,
+      "switches": 100.16
+    },
+    "1": {
+      "avg_wait": 13.05,
+      "max_wait": 77.91,
+      "unserved": 0,
+      "switches": 80.04
+    },
+    "2": {
+      "avg_wait": 15.04,
+      "max_wait": 89.58,
+      "unserved": 0,
+      "switches": 64.15
+    },
+    "3": {
+      "avg_wait": 17.18,
+      "max_wait": 96.16,
+      "unserved": 0,
+      "switches": 54.11
+    },
+    "4": {
+      "avg_wait": 19.45,
+      "max_wait": 104.03,
+      "unserved": 0,
+      "switches": 45.91
+    },
+    "5": {
+      "avg_wait": 21.19,
+      "max_wait": 107.28,
+      "unserved": 0,
+      "switches": 40.41
+    },
+    "6": {
+      "avg_wait": 23.43,
+      "max_wait": 114.36,
+      "unserved": 0,
+      "switches": 37.49
+    }
+  }
+}

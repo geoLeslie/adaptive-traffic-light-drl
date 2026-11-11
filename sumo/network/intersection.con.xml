@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Every approach allows right, straight and left (no U-turns). One shared lane per approach.
+     Left/right are geometric: a car arriving from the north (heading south) turns right into C2W.
+     Left-hand traffic (Indonesia): the RIGHT turn crosses oncoming traffic, the LEFT turn is the easy one. -->
+<connections>
+    <!-- From North (heading south) -->
+    <connection from="N2C" to="C2W" fromLane="0" toLane="0"/>  <!-- right -->
+    <connection from="N2C" to="C2S" fromLane="0" toLane="0"/>  <!-- straight -->
+    <connection from="N2C" to="C2E" fromLane="0" toLane="0"/>  <!-- left -->
+
+    <!-- From South (heading north) -->
+    <connection from="S2C" to="C2E" fromLane="0" toLane="0"/>  <!-- right -->
+    <connection from="S2C" to="C2N" fromLane="0" toLane="0"/>  <!-- straight -->
+    <connection from="S2C" to="C2W" fromLane="0" toLane="0"/>  <!-- left -->
+
+    <!-- From East (heading west) -->
+    <connection from="E2C" to="C2N" fromLane="0" toLane="0"/>  <!-- right -->
+    <connection from="E2C" to="C2W" fromLane="0" toLane="0"/>  <!-- straight -->
+    <connection from="E2C" to="C2S" fromLane="0" toLane="0"/>  <!-- left -->
+
+    <!-- From West (heading east) -->
+    <connection from="W2C" to="C2S" fromLane="0" toLane="0"/>  <!-- right -->
+    <connection from="W2C" to="C2E" fromLane="0" toLane="0"/>  <!-- straight -->
+    <connection from="W2C" to="C2N" fromLane="0" toLane="0"/>  <!-- left -->
+</connections>

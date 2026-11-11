@@ -1,0 +1,5042 @@
+{
+ "balanced/seed_000": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 0,
+  "vehicles": 538,
+  "per_approach": {
+   "N": 134,
+   "S": 147,
+   "E": 133,
+   "W": 124
+  }
+ },
+ "balanced/seed_001": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 1,
+  "vehicles": 464,
+  "per_approach": {
+   "N": 138,
+   "S": 91,
+   "E": 109,
+   "W": 126
+  }
+ },
+ "balanced/seed_002": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 2,
+  "vehicles": 638,
+  "per_approach": {
+   "N": 139,
+   "S": 172,
+   "E": 171,
+   "W": 156
+  }
+ },
+ "balanced/seed_003": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 3,
+  "vehicles": 615,
+  "per_approach": {
+   "N": 168,
+   "S": 165,
+   "E": 148,
+   "W": 134
+  }
+ },
+ "balanced/seed_004": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 4,
+  "vehicles": 658,
+  "per_approach": {
+   "N": 161,
+   "S": 165,
+   "E": 150,
+   "W": 182
+  }
+ },
+ "balanced/seed_005": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 5,
+  "vehicles": 658,
+  "per_approach": {
+   "N": 153,
+   "S": 184,
+   "E": 140,
+   "W": 181
+  }
+ },
+ "balanced/seed_006": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 6,
+  "vehicles": 603,
+  "per_approach": {
+   "N": 137,
+   "S": 168,
+   "E": 145,
+   "W": 153
+  }
+ },
+ "balanced/seed_007": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 7,
+  "vehicles": 607,
+  "per_approach": {
+   "N": 166,
+   "S": 146,
+   "E": 150,
+   "W": 145
+  }
+ },
+ "balanced/seed_008": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 8,
+  "vehicles": 585,
+  "per_approach": {
+   "N": 137,
+   "S": 158,
+   "E": 131,
+   "W": 159
+  }
+ },
+ "balanced/seed_009": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 9,
+  "vehicles": 654,
+  "per_approach": {
+   "N": 178,
+   "S": 157,
+   "E": 191,
+   "W": 128
+  }
+ },
+ "balanced/seed_010": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 10,
+  "vehicles": 645,
+  "per_approach": {
+   "N": 158,
+   "S": 133,
+   "E": 176,
+   "W": 178
+  }
+ },
+ "balanced/seed_011": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 11,
+  "vehicles": 569,
+  "per_approach": {
+   "N": 133,
+   "S": 131,
+   "E": 143,
+   "W": 162
+  }
+ },
+ "balanced/seed_012": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 12,
+  "vehicles": 596,
+  "per_approach": {
+   "N": 161,
+   "S": 132,
+   "E": 156,
+   "W": 147
+  }
+ },
+ "balanced/seed_013": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 13,
+  "vehicles": 630,
+  "per_approach": {
+   "N": 154,
+   "S": 181,
+   "E": 146,
+   "W": 149
+  }
+ },
+ "balanced/seed_014": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 14,
+  "vehicles": 527,
+  "per_approach": {
+   "N": 151,
+   "S": 135,
+   "E": 106,
+   "W": 135
+  }
+ },
+ "balanced/seed_015": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 15,
+  "vehicles": 627,
+  "per_approach": {
+   "N": 150,
+   "S": 149,
+   "E": 155,
+   "W": 173
+  }
+ },
+ "balanced/seed_016": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 16,
+  "vehicles": 582,
+  "per_approach": {
+   "N": 139,
+   "S": 172,
+   "E": 131,
+   "W": 140
+  }
+ },
+ "balanced/seed_017": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 17,
+  "vehicles": 585,
+  "per_approach": {
+   "N": 148,
+   "S": 153,
+   "E": 113,
+   "W": 171
+  }
+ },
+ "balanced/seed_018": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 18,
+  "vehicles": 604,
+  "per_approach": {
+   "N": 121,
+   "S": 158,
+   "E": 176,
+   "W": 149
+  }
+ },
+ "balanced/seed_019": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 19,
+  "vehicles": 624,
+  "per_approach": {
+   "N": 140,
+   "S": 178,
+   "E": 168,
+   "W": 138
+  }
+ },
+ "balanced/seed_020": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 20,
+  "vehicles": 635,
+  "per_approach": {
+   "N": 164,
+   "S": 155,
+   "E": 157,
+   "W": 159
+  }
+ },
+ "balanced/seed_021": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 21,
+  "vehicles": 593,
+  "per_approach": {
+   "N": 152,
+   "S": 133,
+   "E": 123,
+   "W": 185
+  }
+ },
+ "balanced/seed_022": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 22,
+  "vehicles": 570,
+  "per_approach": {
+   "N": 142,
+   "S": 143,
+   "E": 155,
+   "W": 130
+  }
+ },
+ "balanced/seed_023": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 23,
+  "vehicles": 690,
+  "per_approach": {
+   "N": 210,
+   "S": 141,
+   "E": 185,
+   "W": 154
+  }
+ },
+ "balanced/seed_024": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 24,
+  "vehicles": 550,
+  "per_approach": {
+   "N": 142,
+   "S": 131,
+   "E": 148,
+   "W": 129
+  }
+ },
+ "balanced/seed_025": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 25,
+  "vehicles": 640,
+  "per_approach": {
+   "N": 161,
+   "S": 180,
+   "E": 166,
+   "W": 133
+  }
+ },
+ "balanced/seed_026": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 26,
+  "vehicles": 507,
+  "per_approach": {
+   "N": 111,
+   "S": 134,
+   "E": 127,
+   "W": 135
+  }
+ },
+ "balanced/seed_027": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 27,
+  "vehicles": 577,
+  "per_approach": {
+   "N": 167,
+   "S": 154,
+   "E": 120,
+   "W": 136
+  }
+ },
+ "balanced/seed_028": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 28,
+  "vehicles": 598,
+  "per_approach": {
+   "N": 125,
+   "S": 137,
+   "E": 179,
+   "W": 157
+  }
+ },
+ "balanced/seed_029": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 29,
+  "vehicles": 618,
+  "per_approach": {
+   "N": 162,
+   "S": 147,
+   "E": 159,
+   "W": 150
+  }
+ },
+ "balanced/seed_030": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 30,
+  "vehicles": 632,
+  "per_approach": {
+   "N": 135,
+   "S": 163,
+   "E": 158,
+   "W": 176
+  }
+ },
+ "balanced/seed_031": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 31,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 147,
+   "S": 136,
+   "E": 141,
+   "W": 165
+  }
+ },
+ "balanced/seed_032": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 32,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 148,
+   "S": 150,
+   "E": 125,
+   "W": 176
+  }
+ },
+ "balanced/seed_033": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 33,
+  "vehicles": 528,
+  "per_approach": {
+   "N": 130,
+   "S": 138,
+   "E": 136,
+   "W": 124
+  }
+ },
+ "balanced/seed_034": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 34,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 161,
+   "S": 124,
+   "E": 171,
+   "W": 133
+  }
+ },
+ "balanced/seed_035": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 35,
+  "vehicles": 580,
+  "per_approach": {
+   "N": 173,
+   "S": 148,
+   "E": 125,
+   "W": 134
+  }
+ },
+ "balanced/seed_036": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 36,
+  "vehicles": 575,
+  "per_approach": {
+   "N": 166,
+   "S": 120,
+   "E": 164,
+   "W": 125
+  }
+ },
+ "balanced/seed_037": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 37,
+  "vehicles": 544,
+  "per_approach": {
+   "N": 121,
+   "S": 142,
+   "E": 143,
+   "W": 138
+  }
+ },
+ "balanced/seed_038": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 38,
+  "vehicles": 640,
+  "per_approach": {
+   "N": 137,
+   "S": 188,
+   "E": 157,
+   "W": 158
+  }
+ },
+ "balanced/seed_039": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 39,
+  "vehicles": 659,
+  "per_approach": {
+   "N": 161,
+   "S": 171,
+   "E": 166,
+   "W": 161
+  }
+ },
+ "balanced/seed_040": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 40,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 167,
+   "S": 133,
+   "E": 156,
+   "W": 146
+  }
+ },
+ "balanced/seed_041": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 41,
+  "vehicles": 658,
+  "per_approach": {
+   "N": 176,
+   "S": 168,
+   "E": 177,
+   "W": 137
+  }
+ },
+ "balanced/seed_042": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 42,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 158,
+   "S": 145,
+   "E": 141,
+   "W": 167
+  }
+ },
+ "balanced/seed_043": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 43,
+  "vehicles": 644,
+  "per_approach": {
+   "N": 178,
+   "S": 139,
+   "E": 148,
+   "W": 179
+  }
+ },
+ "balanced/seed_044": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 44,
+  "vehicles": 625,
+  "per_approach": {
+   "N": 143,
+   "S": 163,
+   "E": 167,
+   "W": 152
+  }
+ },
+ "balanced/seed_045": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 45,
+  "vehicles": 562,
+  "per_approach": {
+   "N": 134,
+   "S": 189,
+   "E": 121,
+   "W": 118
+  }
+ },
+ "balanced/seed_046": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 46,
+  "vehicles": 641,
+  "per_approach": {
+   "N": 152,
+   "S": 162,
+   "E": 157,
+   "W": 170
+  }
+ },
+ "balanced/seed_047": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 47,
+  "vehicles": 618,
+  "per_approach": {
+   "N": 152,
+   "S": 177,
+   "E": 133,
+   "W": 156
+  }
+ },
+ "balanced/seed_048": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 48,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 169,
+   "S": 133,
+   "E": 151,
+   "W": 146
+  }
+ },
+ "balanced/seed_049": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 49,
+  "vehicles": 619,
+  "per_approach": {
+   "N": 138,
+   "S": 171,
+   "E": 167,
+   "W": 143
+  }
+ },
+ "balanced/seed_050": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 50,
+  "vehicles": 613,
+  "per_approach": {
+   "N": 164,
+   "S": 170,
+   "E": 133,
+   "W": 146
+  }
+ },
+ "balanced/seed_051": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 51,
+  "vehicles": 625,
+  "per_approach": {
+   "N": 162,
+   "S": 148,
+   "E": 152,
+   "W": 163
+  }
+ },
+ "balanced/seed_052": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 52,
+  "vehicles": 519,
+  "per_approach": {
+   "N": 141,
+   "S": 118,
+   "E": 120,
+   "W": 140
+  }
+ },
+ "balanced/seed_053": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 53,
+  "vehicles": 630,
+  "per_approach": {
+   "N": 135,
+   "S": 180,
+   "E": 174,
+   "W": 141
+  }
+ },
+ "balanced/seed_054": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 54,
+  "vehicles": 569,
+  "per_approach": {
+   "N": 152,
+   "S": 136,
+   "E": 158,
+   "W": 123
+  }
+ },
+ "balanced/seed_055": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 55,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 151,
+   "S": 172,
+   "E": 131,
+   "W": 156
+  }
+ },
+ "balanced/seed_056": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 56,
+  "vehicles": 703,
+  "per_approach": {
+   "N": 163,
+   "S": 200,
+   "E": 166,
+   "W": 174
+  }
+ },
+ "balanced/seed_057": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 57,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 149,
+   "S": 160,
+   "E": 150,
+   "W": 140
+  }
+ },
+ "balanced/seed_058": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 58,
+  "vehicles": 621,
+  "per_approach": {
+   "N": 142,
+   "S": 160,
+   "E": 177,
+   "W": 142
+  }
+ },
+ "balanced/seed_059": {
+  "split": "train",
+  "scenario": "balanced",
+  "seed": 59,
+  "vehicles": 574,
+  "per_approach": {
+   "N": 146,
+   "S": 135,
+   "E": 142,
+   "W": 151
+  }
+ },
+ "balanced/seed_060": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 60,
+  "vehicles": 556,
+  "per_approach": {
+   "N": 143,
+   "S": 142,
+   "E": 143,
+   "W": 128
+  }
+ },
+ "balanced/seed_061": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 61,
+  "vehicles": 634,
+  "per_approach": {
+   "N": 155,
+   "S": 134,
+   "E": 169,
+   "W": 176
+  }
+ },
+ "balanced/seed_062": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 62,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 148,
+   "S": 177,
+   "E": 161,
+   "W": 124
+  }
+ },
+ "balanced/seed_063": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 63,
+  "vehicles": 656,
+  "per_approach": {
+   "N": 177,
+   "S": 185,
+   "E": 153,
+   "W": 141
+  }
+ },
+ "balanced/seed_064": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 64,
+  "vehicles": 630,
+  "per_approach": {
+   "N": 166,
+   "S": 159,
+   "E": 163,
+   "W": 142
+  }
+ },
+ "balanced/seed_065": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 65,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 154,
+   "S": 152,
+   "E": 171,
+   "W": 122
+  }
+ },
+ "balanced/seed_066": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 66,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 151,
+   "S": 176,
+   "E": 140,
+   "W": 144
+  }
+ },
+ "balanced/seed_067": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 67,
+  "vehicles": 617,
+  "per_approach": {
+   "N": 172,
+   "S": 149,
+   "E": 140,
+   "W": 156
+  }
+ },
+ "balanced/seed_068": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 68,
+  "vehicles": 580,
+  "per_approach": {
+   "N": 132,
+   "S": 128,
+   "E": 166,
+   "W": 154
+  }
+ },
+ "balanced/seed_069": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 69,
+  "vehicles": 541,
+  "per_approach": {
+   "N": 129,
+   "S": 108,
+   "E": 134,
+   "W": 170
+  }
+ },
+ "balanced/seed_070": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 70,
+  "vehicles": 571,
+  "per_approach": {
+   "N": 130,
+   "S": 141,
+   "E": 137,
+   "W": 163
+  }
+ },
+ "balanced/seed_071": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 71,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 173,
+   "S": 130,
+   "E": 140,
+   "W": 167
+  }
+ },
+ "balanced/seed_072": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 72,
+  "vehicles": 612,
+  "per_approach": {
+   "N": 123,
+   "S": 151,
+   "E": 195,
+   "W": 143
+  }
+ },
+ "balanced/seed_073": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 73,
+  "vehicles": 651,
+  "per_approach": {
+   "N": 168,
+   "S": 133,
+   "E": 173,
+   "W": 177
+  }
+ },
+ "balanced/seed_074": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 74,
+  "vehicles": 563,
+  "per_approach": {
+   "N": 117,
+   "S": 154,
+   "E": 126,
+   "W": 166
+  }
+ },
+ "balanced/seed_075": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 75,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 150,
+   "S": 173,
+   "E": 137,
+   "W": 146
+  }
+ },
+ "balanced/seed_076": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 76,
+  "vehicles": 644,
+  "per_approach": {
+   "N": 159,
+   "S": 172,
+   "E": 162,
+   "W": 151
+  }
+ },
+ "balanced/seed_077": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 77,
+  "vehicles": 586,
+  "per_approach": {
+   "N": 140,
+   "S": 133,
+   "E": 148,
+   "W": 165
+  }
+ },
+ "balanced/seed_078": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 78,
+  "vehicles": 655,
+  "per_approach": {
+   "N": 169,
+   "S": 186,
+   "E": 124,
+   "W": 176
+  }
+ },
+ "balanced/seed_079": {
+  "split": "validation",
+  "scenario": "balanced",
+  "seed": 79,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 155,
+   "S": 142,
+   "E": 158,
+   "W": 155
+  }
+ },
+ "balanced/seed_080": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 80,
+  "vehicles": 581,
+  "per_approach": {
+   "N": 107,
+   "S": 150,
+   "E": 161,
+   "W": 163
+  }
+ },
+ "balanced/seed_081": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 81,
+  "vehicles": 625,
+  "per_approach": {
+   "N": 161,
+   "S": 160,
+   "E": 130,
+   "W": 174
+  }
+ },
+ "balanced/seed_082": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 82,
+  "vehicles": 615,
+  "per_approach": {
+   "N": 174,
+   "S": 141,
+   "E": 139,
+   "W": 161
+  }
+ },
+ "balanced/seed_083": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 83,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 129,
+   "S": 145,
+   "E": 177,
+   "W": 160
+  }
+ },
+ "balanced/seed_084": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 84,
+  "vehicles": 552,
+  "per_approach": {
+   "N": 142,
+   "S": 141,
+   "E": 137,
+   "W": 132
+  }
+ },
+ "balanced/seed_085": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 85,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 164,
+   "S": 161,
+   "E": 140,
+   "W": 137
+  }
+ },
+ "balanced/seed_086": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 86,
+  "vehicles": 598,
+  "per_approach": {
+   "N": 143,
+   "S": 161,
+   "E": 180,
+   "W": 114
+  }
+ },
+ "balanced/seed_087": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 87,
+  "vehicles": 613,
+  "per_approach": {
+   "N": 166,
+   "S": 150,
+   "E": 130,
+   "W": 167
+  }
+ },
+ "balanced/seed_088": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 88,
+  "vehicles": 676,
+  "per_approach": {
+   "N": 175,
+   "S": 163,
+   "E": 160,
+   "W": 178
+  }
+ },
+ "balanced/seed_089": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 89,
+  "vehicles": 625,
+  "per_approach": {
+   "N": 154,
+   "S": 143,
+   "E": 183,
+   "W": 145
+  }
+ },
+ "balanced/seed_090": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 90,
+  "vehicles": 600,
+  "per_approach": {
+   "N": 137,
+   "S": 158,
+   "E": 147,
+   "W": 158
+  }
+ },
+ "balanced/seed_091": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 91,
+  "vehicles": 552,
+  "per_approach": {
+   "N": 173,
+   "S": 121,
+   "E": 124,
+   "W": 134
+  }
+ },
+ "balanced/seed_092": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 92,
+  "vehicles": 619,
+  "per_approach": {
+   "N": 165,
+   "S": 169,
+   "E": 129,
+   "W": 156
+  }
+ },
+ "balanced/seed_093": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 93,
+  "vehicles": 548,
+  "per_approach": {
+   "N": 152,
+   "S": 115,
+   "E": 149,
+   "W": 132
+  }
+ },
+ "balanced/seed_094": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 94,
+  "vehicles": 670,
+  "per_approach": {
+   "N": 168,
+   "S": 163,
+   "E": 182,
+   "W": 157
+  }
+ },
+ "balanced/seed_095": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 95,
+  "vehicles": 624,
+  "per_approach": {
+   "N": 171,
+   "S": 150,
+   "E": 139,
+   "W": 164
+  }
+ },
+ "balanced/seed_096": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 96,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 161,
+   "S": 173,
+   "E": 156,
+   "W": 121
+  }
+ },
+ "balanced/seed_097": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 97,
+  "vehicles": 573,
+  "per_approach": {
+   "N": 153,
+   "S": 164,
+   "E": 133,
+   "W": 123
+  }
+ },
+ "balanced/seed_098": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 98,
+  "vehicles": 567,
+  "per_approach": {
+   "N": 137,
+   "S": 137,
+   "E": 138,
+   "W": 155
+  }
+ },
+ "balanced/seed_099": {
+  "split": "test",
+  "scenario": "balanced",
+  "seed": 99,
+  "vehicles": 627,
+  "per_approach": {
+   "N": 146,
+   "S": 158,
+   "E": 140,
+   "W": 183
+  }
+ },
+ "shift/seed_000": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 0,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 165,
+   "S": 144,
+   "E": 145,
+   "W": 157
+  }
+ },
+ "shift/seed_001": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 1,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 145,
+   "S": 174,
+   "E": 145,
+   "W": 135
+  }
+ },
+ "shift/seed_002": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 2,
+  "vehicles": 662,
+  "per_approach": {
+   "N": 149,
+   "S": 130,
+   "E": 206,
+   "W": 177
+  }
+ },
+ "shift/seed_003": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 3,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 182,
+   "S": 162,
+   "E": 120,
+   "W": 135
+  }
+ },
+ "shift/seed_004": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 4,
+  "vehicles": 609,
+  "per_approach": {
+   "N": 129,
+   "S": 160,
+   "E": 167,
+   "W": 153
+  }
+ },
+ "shift/seed_005": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 5,
+  "vehicles": 591,
+  "per_approach": {
+   "N": 149,
+   "S": 175,
+   "E": 136,
+   "W": 131
+  }
+ },
+ "shift/seed_006": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 6,
+  "vehicles": 561,
+  "per_approach": {
+   "N": 140,
+   "S": 143,
+   "E": 125,
+   "W": 153
+  }
+ },
+ "shift/seed_007": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 7,
+  "vehicles": 555,
+  "per_approach": {
+   "N": 140,
+   "S": 129,
+   "E": 142,
+   "W": 144
+  }
+ },
+ "shift/seed_008": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 8,
+  "vehicles": 600,
+  "per_approach": {
+   "N": 152,
+   "S": 141,
+   "E": 152,
+   "W": 155
+  }
+ },
+ "shift/seed_009": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 9,
+  "vehicles": 609,
+  "per_approach": {
+   "N": 153,
+   "S": 127,
+   "E": 157,
+   "W": 172
+  }
+ },
+ "shift/seed_010": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 10,
+  "vehicles": 586,
+  "per_approach": {
+   "N": 138,
+   "S": 129,
+   "E": 144,
+   "W": 175
+  }
+ },
+ "shift/seed_011": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 11,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 142,
+   "S": 154,
+   "E": 177,
+   "W": 133
+  }
+ },
+ "shift/seed_012": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 12,
+  "vehicles": 631,
+  "per_approach": {
+   "N": 189,
+   "S": 150,
+   "E": 167,
+   "W": 125
+  }
+ },
+ "shift/seed_013": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 13,
+  "vehicles": 574,
+  "per_approach": {
+   "N": 150,
+   "S": 135,
+   "E": 143,
+   "W": 146
+  }
+ },
+ "shift/seed_014": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 14,
+  "vehicles": 653,
+  "per_approach": {
+   "N": 200,
+   "S": 177,
+   "E": 125,
+   "W": 151
+  }
+ },
+ "shift/seed_015": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 15,
+  "vehicles": 576,
+  "per_approach": {
+   "N": 116,
+   "S": 173,
+   "E": 156,
+   "W": 131
+  }
+ },
+ "shift/seed_016": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 16,
+  "vehicles": 603,
+  "per_approach": {
+   "N": 156,
+   "S": 187,
+   "E": 147,
+   "W": 113
+  }
+ },
+ "shift/seed_017": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 17,
+  "vehicles": 616,
+  "per_approach": {
+   "N": 158,
+   "S": 143,
+   "E": 149,
+   "W": 166
+  }
+ },
+ "shift/seed_018": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 18,
+  "vehicles": 619,
+  "per_approach": {
+   "N": 164,
+   "S": 121,
+   "E": 183,
+   "W": 151
+  }
+ },
+ "shift/seed_019": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 19,
+  "vehicles": 608,
+  "per_approach": {
+   "N": 152,
+   "S": 149,
+   "E": 162,
+   "W": 145
+  }
+ },
+ "shift/seed_020": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 20,
+  "vehicles": 638,
+  "per_approach": {
+   "N": 176,
+   "S": 178,
+   "E": 136,
+   "W": 148
+  }
+ },
+ "shift/seed_021": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 21,
+  "vehicles": 550,
+  "per_approach": {
+   "N": 151,
+   "S": 127,
+   "E": 148,
+   "W": 124
+  }
+ },
+ "shift/seed_022": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 22,
+  "vehicles": 570,
+  "per_approach": {
+   "N": 149,
+   "S": 128,
+   "E": 153,
+   "W": 140
+  }
+ },
+ "shift/seed_023": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 23,
+  "vehicles": 629,
+  "per_approach": {
+   "N": 157,
+   "S": 161,
+   "E": 150,
+   "W": 161
+  }
+ },
+ "shift/seed_024": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 24,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 171,
+   "S": 158,
+   "E": 141,
+   "W": 136
+  }
+ },
+ "shift/seed_025": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 25,
+  "vehicles": 566,
+  "per_approach": {
+   "N": 137,
+   "S": 139,
+   "E": 145,
+   "W": 145
+  }
+ },
+ "shift/seed_026": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 26,
+  "vehicles": 581,
+  "per_approach": {
+   "N": 143,
+   "S": 157,
+   "E": 151,
+   "W": 130
+  }
+ },
+ "shift/seed_027": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 27,
+  "vehicles": 545,
+  "per_approach": {
+   "N": 141,
+   "S": 147,
+   "E": 98,
+   "W": 159
+  }
+ },
+ "shift/seed_028": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 28,
+  "vehicles": 607,
+  "per_approach": {
+   "N": 145,
+   "S": 154,
+   "E": 148,
+   "W": 160
+  }
+ },
+ "shift/seed_029": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 29,
+  "vehicles": 622,
+  "per_approach": {
+   "N": 136,
+   "S": 169,
+   "E": 166,
+   "W": 151
+  }
+ },
+ "shift/seed_030": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 30,
+  "vehicles": 571,
+  "per_approach": {
+   "N": 159,
+   "S": 161,
+   "E": 133,
+   "W": 118
+  }
+ },
+ "shift/seed_031": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 31,
+  "vehicles": 644,
+  "per_approach": {
+   "N": 122,
+   "S": 169,
+   "E": 178,
+   "W": 175
+  }
+ },
+ "shift/seed_032": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 32,
+  "vehicles": 580,
+  "per_approach": {
+   "N": 143,
+   "S": 141,
+   "E": 146,
+   "W": 150
+  }
+ },
+ "shift/seed_033": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 33,
+  "vehicles": 639,
+  "per_approach": {
+   "N": 167,
+   "S": 168,
+   "E": 145,
+   "W": 159
+  }
+ },
+ "shift/seed_034": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 34,
+  "vehicles": 579,
+  "per_approach": {
+   "N": 135,
+   "S": 132,
+   "E": 153,
+   "W": 159
+  }
+ },
+ "shift/seed_035": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 35,
+  "vehicles": 654,
+  "per_approach": {
+   "N": 163,
+   "S": 163,
+   "E": 179,
+   "W": 149
+  }
+ },
+ "shift/seed_036": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 36,
+  "vehicles": 649,
+  "per_approach": {
+   "N": 157,
+   "S": 195,
+   "E": 149,
+   "W": 148
+  }
+ },
+ "shift/seed_037": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 37,
+  "vehicles": 533,
+  "per_approach": {
+   "N": 140,
+   "S": 122,
+   "E": 145,
+   "W": 126
+  }
+ },
+ "shift/seed_038": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 38,
+  "vehicles": 628,
+  "per_approach": {
+   "N": 133,
+   "S": 172,
+   "E": 167,
+   "W": 156
+  }
+ },
+ "shift/seed_039": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 39,
+  "vehicles": 616,
+  "per_approach": {
+   "N": 173,
+   "S": 156,
+   "E": 129,
+   "W": 158
+  }
+ },
+ "shift/seed_040": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 40,
+  "vehicles": 624,
+  "per_approach": {
+   "N": 186,
+   "S": 138,
+   "E": 177,
+   "W": 123
+  }
+ },
+ "shift/seed_041": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 41,
+  "vehicles": 577,
+  "per_approach": {
+   "N": 151,
+   "S": 148,
+   "E": 142,
+   "W": 136
+  }
+ },
+ "shift/seed_042": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 42,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 160,
+   "S": 151,
+   "E": 150,
+   "W": 145
+  }
+ },
+ "shift/seed_043": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 43,
+  "vehicles": 540,
+  "per_approach": {
+   "N": 127,
+   "S": 153,
+   "E": 130,
+   "W": 130
+  }
+ },
+ "shift/seed_044": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 44,
+  "vehicles": 593,
+  "per_approach": {
+   "N": 146,
+   "S": 148,
+   "E": 163,
+   "W": 136
+  }
+ },
+ "shift/seed_045": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 45,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 117,
+   "S": 152,
+   "E": 147,
+   "W": 173
+  }
+ },
+ "shift/seed_046": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 46,
+  "vehicles": 620,
+  "per_approach": {
+   "N": 143,
+   "S": 161,
+   "E": 154,
+   "W": 162
+  }
+ },
+ "shift/seed_047": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 47,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 145,
+   "S": 151,
+   "E": 146,
+   "W": 160
+  }
+ },
+ "shift/seed_048": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 48,
+  "vehicles": 648,
+  "per_approach": {
+   "N": 144,
+   "S": 153,
+   "E": 169,
+   "W": 182
+  }
+ },
+ "shift/seed_049": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 49,
+  "vehicles": 613,
+  "per_approach": {
+   "N": 142,
+   "S": 160,
+   "E": 185,
+   "W": 126
+  }
+ },
+ "shift/seed_050": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 50,
+  "vehicles": 574,
+  "per_approach": {
+   "N": 129,
+   "S": 162,
+   "E": 137,
+   "W": 146
+  }
+ },
+ "shift/seed_051": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 51,
+  "vehicles": 628,
+  "per_approach": {
+   "N": 130,
+   "S": 162,
+   "E": 167,
+   "W": 169
+  }
+ },
+ "shift/seed_052": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 52,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 141,
+   "S": 158,
+   "E": 165,
+   "W": 138
+  }
+ },
+ "shift/seed_053": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 53,
+  "vehicles": 588,
+  "per_approach": {
+   "N": 168,
+   "S": 159,
+   "E": 135,
+   "W": 126
+  }
+ },
+ "shift/seed_054": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 54,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 147,
+   "S": 147,
+   "E": 171,
+   "W": 141
+  }
+ },
+ "shift/seed_055": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 55,
+  "vehicles": 605,
+  "per_approach": {
+   "N": 159,
+   "S": 131,
+   "E": 155,
+   "W": 160
+  }
+ },
+ "shift/seed_056": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 56,
+  "vehicles": 563,
+  "per_approach": {
+   "N": 123,
+   "S": 127,
+   "E": 163,
+   "W": 150
+  }
+ },
+ "shift/seed_057": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 57,
+  "vehicles": 574,
+  "per_approach": {
+   "N": 155,
+   "S": 152,
+   "E": 140,
+   "W": 127
+  }
+ },
+ "shift/seed_058": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 58,
+  "vehicles": 615,
+  "per_approach": {
+   "N": 181,
+   "S": 122,
+   "E": 173,
+   "W": 139
+  }
+ },
+ "shift/seed_059": {
+  "split": "train",
+  "scenario": "shift",
+  "seed": 59,
+  "vehicles": 576,
+  "per_approach": {
+   "N": 156,
+   "S": 146,
+   "E": 152,
+   "W": 122
+  }
+ },
+ "shift/seed_060": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 60,
+  "vehicles": 552,
+  "per_approach": {
+   "N": 120,
+   "S": 120,
+   "E": 146,
+   "W": 166
+  }
+ },
+ "shift/seed_061": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 61,
+  "vehicles": 527,
+  "per_approach": {
+   "N": 146,
+   "S": 105,
+   "E": 123,
+   "W": 153
+  }
+ },
+ "shift/seed_062": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 62,
+  "vehicles": 592,
+  "per_approach": {
+   "N": 135,
+   "S": 169,
+   "E": 155,
+   "W": 133
+  }
+ },
+ "shift/seed_063": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 63,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 145,
+   "S": 169,
+   "E": 141,
+   "W": 151
+  }
+ },
+ "shift/seed_064": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 64,
+  "vehicles": 645,
+  "per_approach": {
+   "N": 168,
+   "S": 166,
+   "E": 148,
+   "W": 163
+  }
+ },
+ "shift/seed_065": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 65,
+  "vehicles": 597,
+  "per_approach": {
+   "N": 150,
+   "S": 131,
+   "E": 170,
+   "W": 146
+  }
+ },
+ "shift/seed_066": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 66,
+  "vehicles": 648,
+  "per_approach": {
+   "N": 178,
+   "S": 162,
+   "E": 126,
+   "W": 182
+  }
+ },
+ "shift/seed_067": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 67,
+  "vehicles": 541,
+  "per_approach": {
+   "N": 117,
+   "S": 126,
+   "E": 154,
+   "W": 144
+  }
+ },
+ "shift/seed_068": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 68,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 137,
+   "S": 169,
+   "E": 139,
+   "W": 161
+  }
+ },
+ "shift/seed_069": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 69,
+  "vehicles": 609,
+  "per_approach": {
+   "N": 146,
+   "S": 137,
+   "E": 170,
+   "W": 156
+  }
+ },
+ "shift/seed_070": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 70,
+  "vehicles": 556,
+  "per_approach": {
+   "N": 140,
+   "S": 124,
+   "E": 153,
+   "W": 139
+  }
+ },
+ "shift/seed_071": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 71,
+  "vehicles": 604,
+  "per_approach": {
+   "N": 141,
+   "S": 134,
+   "E": 170,
+   "W": 159
+  }
+ },
+ "shift/seed_072": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 72,
+  "vehicles": 590,
+  "per_approach": {
+   "N": 145,
+   "S": 153,
+   "E": 134,
+   "W": 158
+  }
+ },
+ "shift/seed_073": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 73,
+  "vehicles": 621,
+  "per_approach": {
+   "N": 181,
+   "S": 140,
+   "E": 155,
+   "W": 145
+  }
+ },
+ "shift/seed_074": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 74,
+  "vehicles": 584,
+  "per_approach": {
+   "N": 143,
+   "S": 150,
+   "E": 148,
+   "W": 143
+  }
+ },
+ "shift/seed_075": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 75,
+  "vehicles": 539,
+  "per_approach": {
+   "N": 122,
+   "S": 138,
+   "E": 140,
+   "W": 139
+  }
+ },
+ "shift/seed_076": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 76,
+  "vehicles": 600,
+  "per_approach": {
+   "N": 145,
+   "S": 140,
+   "E": 160,
+   "W": 155
+  }
+ },
+ "shift/seed_077": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 77,
+  "vehicles": 565,
+  "per_approach": {
+   "N": 152,
+   "S": 145,
+   "E": 143,
+   "W": 125
+  }
+ },
+ "shift/seed_078": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 78,
+  "vehicles": 634,
+  "per_approach": {
+   "N": 145,
+   "S": 157,
+   "E": 170,
+   "W": 162
+  }
+ },
+ "shift/seed_079": {
+  "split": "validation",
+  "scenario": "shift",
+  "seed": 79,
+  "vehicles": 580,
+  "per_approach": {
+   "N": 125,
+   "S": 138,
+   "E": 165,
+   "W": 152
+  }
+ },
+ "shift/seed_080": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 80,
+  "vehicles": 607,
+  "per_approach": {
+   "N": 152,
+   "S": 145,
+   "E": 151,
+   "W": 159
+  }
+ },
+ "shift/seed_081": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 81,
+  "vehicles": 598,
+  "per_approach": {
+   "N": 150,
+   "S": 169,
+   "E": 140,
+   "W": 139
+  }
+ },
+ "shift/seed_082": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 82,
+  "vehicles": 605,
+  "per_approach": {
+   "N": 162,
+   "S": 169,
+   "E": 133,
+   "W": 141
+  }
+ },
+ "shift/seed_083": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 83,
+  "vehicles": 621,
+  "per_approach": {
+   "N": 170,
+   "S": 158,
+   "E": 142,
+   "W": 151
+  }
+ },
+ "shift/seed_084": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 84,
+  "vehicles": 562,
+  "per_approach": {
+   "N": 127,
+   "S": 114,
+   "E": 174,
+   "W": 147
+  }
+ },
+ "shift/seed_085": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 85,
+  "vehicles": 578,
+  "per_approach": {
+   "N": 145,
+   "S": 144,
+   "E": 168,
+   "W": 121
+  }
+ },
+ "shift/seed_086": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 86,
+  "vehicles": 586,
+  "per_approach": {
+   "N": 111,
+   "S": 145,
+   "E": 187,
+   "W": 143
+  }
+ },
+ "shift/seed_087": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 87,
+  "vehicles": 573,
+  "per_approach": {
+   "N": 144,
+   "S": 136,
+   "E": 151,
+   "W": 142
+  }
+ },
+ "shift/seed_088": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 88,
+  "vehicles": 566,
+  "per_approach": {
+   "N": 127,
+   "S": 121,
+   "E": 143,
+   "W": 175
+  }
+ },
+ "shift/seed_089": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 89,
+  "vehicles": 637,
+  "per_approach": {
+   "N": 171,
+   "S": 144,
+   "E": 163,
+   "W": 159
+  }
+ },
+ "shift/seed_090": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 90,
+  "vehicles": 583,
+  "per_approach": {
+   "N": 147,
+   "S": 142,
+   "E": 129,
+   "W": 165
+  }
+ },
+ "shift/seed_091": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 91,
+  "vehicles": 627,
+  "per_approach": {
+   "N": 172,
+   "S": 165,
+   "E": 134,
+   "W": 156
+  }
+ },
+ "shift/seed_092": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 92,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 158,
+   "S": 122,
+   "E": 161,
+   "W": 165
+  }
+ },
+ "shift/seed_093": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 93,
+  "vehicles": 601,
+  "per_approach": {
+   "N": 141,
+   "S": 147,
+   "E": 145,
+   "W": 168
+  }
+ },
+ "shift/seed_094": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 94,
+  "vehicles": 539,
+  "per_approach": {
+   "N": 138,
+   "S": 142,
+   "E": 127,
+   "W": 132
+  }
+ },
+ "shift/seed_095": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 95,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 135,
+   "S": 172,
+   "E": 134,
+   "W": 158
+  }
+ },
+ "shift/seed_096": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 96,
+  "vehicles": 644,
+  "per_approach": {
+   "N": 157,
+   "S": 153,
+   "E": 173,
+   "W": 161
+  }
+ },
+ "shift/seed_097": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 97,
+  "vehicles": 630,
+  "per_approach": {
+   "N": 144,
+   "S": 173,
+   "E": 168,
+   "W": 145
+  }
+ },
+ "shift/seed_098": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 98,
+  "vehicles": 624,
+  "per_approach": {
+   "N": 167,
+   "S": 153,
+   "E": 143,
+   "W": 161
+  }
+ },
+ "shift/seed_099": {
+  "split": "test",
+  "scenario": "shift",
+  "seed": 99,
+  "vehicles": 600,
+  "per_approach": {
+   "N": 135,
+   "S": 165,
+   "E": 163,
+   "W": 137
+  }
+ },
+ "stress/seed_080": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 80,
+  "vehicles": 838,
+  "per_approach": {
+   "N": 179,
+   "S": 175,
+   "E": 270,
+   "W": 214
+  }
+ },
+ "stress/seed_081": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 81,
+  "vehicles": 985,
+  "per_approach": {
+   "N": 284,
+   "S": 233,
+   "E": 243,
+   "W": 225
+  }
+ },
+ "stress/seed_082": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 82,
+  "vehicles": 999,
+  "per_approach": {
+   "N": 210,
+   "S": 274,
+   "E": 291,
+   "W": 224
+  }
+ },
+ "stress/seed_083": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 83,
+  "vehicles": 1051,
+  "per_approach": {
+   "N": 261,
+   "S": 285,
+   "E": 249,
+   "W": 256
+  }
+ },
+ "stress/seed_084": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 84,
+  "vehicles": 962,
+  "per_approach": {
+   "N": 239,
+   "S": 241,
+   "E": 223,
+   "W": 259
+  }
+ },
+ "stress/seed_085": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 85,
+  "vehicles": 999,
+  "per_approach": {
+   "N": 229,
+   "S": 278,
+   "E": 245,
+   "W": 247
+  }
+ },
+ "stress/seed_086": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 86,
+  "vehicles": 927,
+  "per_approach": {
+   "N": 271,
+   "S": 255,
+   "E": 206,
+   "W": 195
+  }
+ },
+ "stress/seed_087": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 87,
+  "vehicles": 967,
+  "per_approach": {
+   "N": 205,
+   "S": 267,
+   "E": 254,
+   "W": 241
+  }
+ },
+ "stress/seed_088": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 88,
+  "vehicles": 958,
+  "per_approach": {
+   "N": 253,
+   "S": 249,
+   "E": 235,
+   "W": 221
+  }
+ },
+ "stress/seed_089": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 89,
+  "vehicles": 1004,
+  "per_approach": {
+   "N": 238,
+   "S": 264,
+   "E": 233,
+   "W": 269
+  }
+ },
+ "stress/seed_090": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 90,
+  "vehicles": 941,
+  "per_approach": {
+   "N": 205,
+   "S": 223,
+   "E": 246,
+   "W": 267
+  }
+ },
+ "stress/seed_091": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 91,
+  "vehicles": 976,
+  "per_approach": {
+   "N": 277,
+   "S": 271,
+   "E": 216,
+   "W": 212
+  }
+ },
+ "stress/seed_092": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 92,
+  "vehicles": 1007,
+  "per_approach": {
+   "N": 177,
+   "S": 304,
+   "E": 250,
+   "W": 276
+  }
+ },
+ "stress/seed_093": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 93,
+  "vehicles": 1020,
+  "per_approach": {
+   "N": 220,
+   "S": 274,
+   "E": 289,
+   "W": 237
+  }
+ },
+ "stress/seed_094": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 94,
+  "vehicles": 935,
+  "per_approach": {
+   "N": 219,
+   "S": 245,
+   "E": 246,
+   "W": 225
+  }
+ },
+ "stress/seed_095": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 95,
+  "vehicles": 941,
+  "per_approach": {
+   "N": 233,
+   "S": 234,
+   "E": 257,
+   "W": 217
+  }
+ },
+ "stress/seed_096": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 96,
+  "vehicles": 969,
+  "per_approach": {
+   "N": 229,
+   "S": 220,
+   "E": 299,
+   "W": 221
+  }
+ },
+ "stress/seed_097": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 97,
+  "vehicles": 1041,
+  "per_approach": {
+   "N": 261,
+   "S": 260,
+   "E": 260,
+   "W": 260
+  }
+ },
+ "stress/seed_098": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 98,
+  "vehicles": 970,
+  "per_approach": {
+   "N": 265,
+   "S": 237,
+   "E": 265,
+   "W": 203
+  }
+ },
+ "stress/seed_099": {
+  "split": "test",
+  "scenario": "stress",
+  "seed": 99,
+  "vehicles": 1091,
+  "per_approach": {
+   "N": 253,
+   "S": 279,
+   "E": 241,
+   "W": 318
+  }
+ },
+ "surge/seed_000": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 0,
+  "vehicles": 559,
+  "per_approach": {
+   "N": 206,
+   "S": 120,
+   "E": 95,
+   "W": 138
+  }
+ },
+ "surge/seed_001": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 1,
+  "vehicles": 530,
+  "per_approach": {
+   "N": 115,
+   "S": 81,
+   "E": 138,
+   "W": 196
+  }
+ },
+ "surge/seed_002": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 2,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 227,
+   "S": 129,
+   "E": 111,
+   "W": 135
+  }
+ },
+ "surge/seed_003": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 3,
+  "vehicles": 588,
+  "per_approach": {
+   "N": 214,
+   "S": 146,
+   "E": 94,
+   "W": 134
+  }
+ },
+ "surge/seed_004": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 4,
+  "vehicles": 617,
+  "per_approach": {
+   "N": 131,
+   "S": 217,
+   "E": 119,
+   "W": 150
+  }
+ },
+ "surge/seed_005": {
+  "split": "adhoc",
+  "scenario": "surge",
+  "seed": 5,
+  "vehicles": 579,
+  "per_approach": {
+   "N": 186,
+   "S": 121,
+   "E": 148,
+   "W": 124
+  }
+ },
+ "surge/seed_006": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 6,
+  "vehicles": 592,
+  "per_approach": {
+   "N": 187,
+   "S": 113,
+   "E": 130,
+   "W": 162
+  }
+ },
+ "surge/seed_007": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 7,
+  "vehicles": 580,
+  "per_approach": {
+   "N": 197,
+   "S": 141,
+   "E": 119,
+   "W": 123
+  }
+ },
+ "surge/seed_008": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 8,
+  "vehicles": 555,
+  "per_approach": {
+   "N": 84,
+   "S": 126,
+   "E": 151,
+   "W": 194
+  }
+ },
+ "surge/seed_009": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 9,
+  "vehicles": 584,
+  "per_approach": {
+   "N": 224,
+   "S": 117,
+   "E": 116,
+   "W": 127
+  }
+ },
+ "surge/seed_010": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 10,
+  "vehicles": 544,
+  "per_approach": {
+   "N": 106,
+   "S": 144,
+   "E": 185,
+   "W": 109
+  }
+ },
+ "surge/seed_011": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 11,
+  "vehicles": 574,
+  "per_approach": {
+   "N": 181,
+   "S": 129,
+   "E": 134,
+   "W": 130
+  }
+ },
+ "surge/seed_012": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 12,
+  "vehicles": 592,
+  "per_approach": {
+   "N": 208,
+   "S": 147,
+   "E": 127,
+   "W": 110
+  }
+ },
+ "surge/seed_013": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 13,
+  "vehicles": 563,
+  "per_approach": {
+   "N": 124,
+   "S": 177,
+   "E": 131,
+   "W": 131
+  }
+ },
+ "surge/seed_014": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 14,
+  "vehicles": 582,
+  "per_approach": {
+   "N": 136,
+   "S": 100,
+   "E": 208,
+   "W": 138
+  }
+ },
+ "surge/seed_015": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 15,
+  "vehicles": 569,
+  "per_approach": {
+   "N": 106,
+   "S": 210,
+   "E": 136,
+   "W": 117
+  }
+ },
+ "surge/seed_016": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 16,
+  "vehicles": 568,
+  "per_approach": {
+   "N": 204,
+   "S": 119,
+   "E": 113,
+   "W": 132
+  }
+ },
+ "surge/seed_017": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 17,
+  "vehicles": 618,
+  "per_approach": {
+   "N": 143,
+   "S": 132,
+   "E": 144,
+   "W": 199
+  }
+ },
+ "surge/seed_018": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 18,
+  "vehicles": 616,
+  "per_approach": {
+   "N": 125,
+   "S": 142,
+   "E": 207,
+   "W": 142
+  }
+ },
+ "surge/seed_019": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 19,
+  "vehicles": 604,
+  "per_approach": {
+   "N": 117,
+   "S": 103,
+   "E": 133,
+   "W": 251
+  }
+ },
+ "surge/seed_020": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 20,
+  "vehicles": 537,
+  "per_approach": {
+   "N": 105,
+   "S": 117,
+   "E": 188,
+   "W": 127
+  }
+ },
+ "surge/seed_021": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 21,
+  "vehicles": 643,
+  "per_approach": {
+   "N": 207,
+   "S": 160,
+   "E": 137,
+   "W": 139
+  }
+ },
+ "surge/seed_022": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 22,
+  "vehicles": 546,
+  "per_approach": {
+   "N": 116,
+   "S": 184,
+   "E": 110,
+   "W": 136
+  }
+ },
+ "surge/seed_023": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 23,
+  "vehicles": 536,
+  "per_approach": {
+   "N": 96,
+   "S": 133,
+   "E": 114,
+   "W": 193
+  }
+ },
+ "surge/seed_024": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 24,
+  "vehicles": 588,
+  "per_approach": {
+   "N": 120,
+   "S": 153,
+   "E": 104,
+   "W": 211
+  }
+ },
+ "surge/seed_025": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 25,
+  "vehicles": 550,
+  "per_approach": {
+   "N": 101,
+   "S": 132,
+   "E": 200,
+   "W": 117
+  }
+ },
+ "surge/seed_026": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 26,
+  "vehicles": 561,
+  "per_approach": {
+   "N": 128,
+   "S": 127,
+   "E": 207,
+   "W": 99
+  }
+ },
+ "surge/seed_027": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 27,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 142,
+   "S": 120,
+   "E": 135,
+   "W": 214
+  }
+ },
+ "surge/seed_028": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 28,
+  "vehicles": 681,
+  "per_approach": {
+   "N": 162,
+   "S": 165,
+   "E": 201,
+   "W": 153
+  }
+ },
+ "surge/seed_029": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 29,
+  "vehicles": 587,
+  "per_approach": {
+   "N": 125,
+   "S": 118,
+   "E": 219,
+   "W": 125
+  }
+ },
+ "surge/seed_030": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 30,
+  "vehicles": 641,
+  "per_approach": {
+   "N": 156,
+   "S": 134,
+   "E": 151,
+   "W": 200
+  }
+ },
+ "surge/seed_031": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 31,
+  "vehicles": 544,
+  "per_approach": {
+   "N": 120,
+   "S": 108,
+   "E": 119,
+   "W": 197
+  }
+ },
+ "surge/seed_032": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 32,
+  "vehicles": 573,
+  "per_approach": {
+   "N": 132,
+   "S": 128,
+   "E": 134,
+   "W": 179
+  }
+ },
+ "surge/seed_033": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 33,
+  "vehicles": 593,
+  "per_approach": {
+   "N": 225,
+   "S": 89,
+   "E": 147,
+   "W": 132
+  }
+ },
+ "surge/seed_034": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 34,
+  "vehicles": 633,
+  "per_approach": {
+   "N": 161,
+   "S": 197,
+   "E": 134,
+   "W": 141
+  }
+ },
+ "surge/seed_035": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 35,
+  "vehicles": 613,
+  "per_approach": {
+   "N": 121,
+   "S": 117,
+   "E": 145,
+   "W": 230
+  }
+ },
+ "surge/seed_036": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 36,
+  "vehicles": 593,
+  "per_approach": {
+   "N": 112,
+   "S": 135,
+   "E": 218,
+   "W": 128
+  }
+ },
+ "surge/seed_037": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 37,
+  "vehicles": 575,
+  "per_approach": {
+   "N": 133,
+   "S": 98,
+   "E": 214,
+   "W": 130
+  }
+ },
+ "surge/seed_038": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 38,
+  "vehicles": 598,
+  "per_approach": {
+   "N": 153,
+   "S": 197,
+   "E": 155,
+   "W": 93
+  }
+ },
+ "surge/seed_039": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 39,
+  "vehicles": 536,
+  "per_approach": {
+   "N": 115,
+   "S": 177,
+   "E": 135,
+   "W": 109
+  }
+ },
+ "surge/seed_040": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 40,
+  "vehicles": 574,
+  "per_approach": {
+   "N": 211,
+   "S": 133,
+   "E": 114,
+   "W": 116
+  }
+ },
+ "surge/seed_041": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 41,
+  "vehicles": 536,
+  "per_approach": {
+   "N": 96,
+   "S": 139,
+   "E": 213,
+   "W": 88
+  }
+ },
+ "surge/seed_042": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 42,
+  "vehicles": 545,
+  "per_approach": {
+   "N": 116,
+   "S": 103,
+   "E": 106,
+   "W": 220
+  }
+ },
+ "surge/seed_043": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 43,
+  "vehicles": 609,
+  "per_approach": {
+   "N": 171,
+   "S": 128,
+   "E": 104,
+   "W": 206
+  }
+ },
+ "surge/seed_044": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 44,
+  "vehicles": 523,
+  "per_approach": {
+   "N": 105,
+   "S": 97,
+   "E": 139,
+   "W": 182
+  }
+ },
+ "surge/seed_045": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 45,
+  "vehicles": 624,
+  "per_approach": {
+   "N": 123,
+   "S": 130,
+   "E": 124,
+   "W": 247
+  }
+ },
+ "surge/seed_046": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 46,
+  "vehicles": 601,
+  "per_approach": {
+   "N": 105,
+   "S": 159,
+   "E": 222,
+   "W": 115
+  }
+ },
+ "surge/seed_047": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 47,
+  "vehicles": 535,
+  "per_approach": {
+   "N": 112,
+   "S": 99,
+   "E": 126,
+   "W": 198
+  }
+ },
+ "surge/seed_048": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 48,
+  "vehicles": 532,
+  "per_approach": {
+   "N": 135,
+   "S": 175,
+   "E": 121,
+   "W": 101
+  }
+ },
+ "surge/seed_049": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 49,
+  "vehicles": 591,
+  "per_approach": {
+   "N": 137,
+   "S": 122,
+   "E": 195,
+   "W": 137
+  }
+ },
+ "surge/seed_050": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 50,
+  "vehicles": 626,
+  "per_approach": {
+   "N": 220,
+   "S": 145,
+   "E": 123,
+   "W": 138
+  }
+ },
+ "surge/seed_051": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 51,
+  "vehicles": 581,
+  "per_approach": {
+   "N": 144,
+   "S": 119,
+   "E": 123,
+   "W": 195
+  }
+ },
+ "surge/seed_052": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 52,
+  "vehicles": 636,
+  "per_approach": {
+   "N": 219,
+   "S": 131,
+   "E": 143,
+   "W": 143
+  }
+ },
+ "surge/seed_053": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 53,
+  "vehicles": 576,
+  "per_approach": {
+   "N": 196,
+   "S": 122,
+   "E": 123,
+   "W": 135
+  }
+ },
+ "surge/seed_054": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 54,
+  "vehicles": 581,
+  "per_approach": {
+   "N": 110,
+   "S": 113,
+   "E": 218,
+   "W": 140
+  }
+ },
+ "surge/seed_055": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 55,
+  "vehicles": 593,
+  "per_approach": {
+   "N": 124,
+   "S": 126,
+   "E": 221,
+   "W": 122
+  }
+ },
+ "surge/seed_056": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 56,
+  "vehicles": 562,
+  "per_approach": {
+   "N": 127,
+   "S": 199,
+   "E": 119,
+   "W": 117
+  }
+ },
+ "surge/seed_057": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 57,
+  "vehicles": 617,
+  "per_approach": {
+   "N": 213,
+   "S": 123,
+   "E": 147,
+   "W": 134
+  }
+ },
+ "surge/seed_058": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 58,
+  "vehicles": 592,
+  "per_approach": {
+   "N": 210,
+   "S": 128,
+   "E": 119,
+   "W": 135
+  }
+ },
+ "surge/seed_059": {
+  "split": "train",
+  "scenario": "surge",
+  "seed": 59,
+  "vehicles": 597,
+  "per_approach": {
+   "N": 129,
+   "S": 235,
+   "E": 108,
+   "W": 125
+  }
+ },
+ "surge/seed_060": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 60,
+  "vehicles": 614,
+  "per_approach": {
+   "N": 142,
+   "S": 114,
+   "E": 230,
+   "W": 128
+  }
+ },
+ "surge/seed_061": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 61,
+  "vehicles": 584,
+  "per_approach": {
+   "N": 101,
+   "S": 174,
+   "E": 186,
+   "W": 123
+  }
+ },
+ "surge/seed_062": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 62,
+  "vehicles": 533,
+  "per_approach": {
+   "N": 159,
+   "S": 160,
+   "E": 112,
+   "W": 102
+  }
+ },
+ "surge/seed_063": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 63,
+  "vehicles": 571,
+  "per_approach": {
+   "N": 95,
+   "S": 212,
+   "E": 112,
+   "W": 152
+  }
+ },
+ "surge/seed_064": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 64,
+  "vehicles": 545,
+  "per_approach": {
+   "N": 110,
+   "S": 183,
+   "E": 130,
+   "W": 122
+  }
+ },
+ "surge/seed_065": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 65,
+  "vehicles": 568,
+  "per_approach": {
+   "N": 211,
+   "S": 120,
+   "E": 128,
+   "W": 109
+  }
+ },
+ "surge/seed_066": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 66,
+  "vehicles": 582,
+  "per_approach": {
+   "N": 134,
+   "S": 128,
+   "E": 188,
+   "W": 132
+  }
+ },
+ "surge/seed_067": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 67,
+  "vehicles": 584,
+  "per_approach": {
+   "N": 206,
+   "S": 106,
+   "E": 119,
+   "W": 153
+  }
+ },
+ "surge/seed_068": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 68,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 167,
+   "S": 135,
+   "E": 179,
+   "W": 129
+  }
+ },
+ "surge/seed_069": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 69,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 146,
+   "S": 197,
+   "E": 127,
+   "W": 129
+  }
+ },
+ "surge/seed_070": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 70,
+  "vehicles": 572,
+  "per_approach": {
+   "N": 99,
+   "S": 114,
+   "E": 152,
+   "W": 207
+  }
+ },
+ "surge/seed_071": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 71,
+  "vehicles": 626,
+  "per_approach": {
+   "N": 144,
+   "S": 161,
+   "E": 125,
+   "W": 196
+  }
+ },
+ "surge/seed_072": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 72,
+  "vehicles": 582,
+  "per_approach": {
+   "N": 145,
+   "S": 186,
+   "E": 135,
+   "W": 116
+  }
+ },
+ "surge/seed_073": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 73,
+  "vehicles": 565,
+  "per_approach": {
+   "N": 114,
+   "S": 193,
+   "E": 106,
+   "W": 152
+  }
+ },
+ "surge/seed_074": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 74,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 192,
+   "S": 146,
+   "E": 107,
+   "W": 144
+  }
+ },
+ "surge/seed_075": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 75,
+  "vehicles": 607,
+  "per_approach": {
+   "N": 133,
+   "S": 138,
+   "E": 119,
+   "W": 217
+  }
+ },
+ "surge/seed_076": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 76,
+  "vehicles": 580,
+  "per_approach": {
+   "N": 146,
+   "S": 192,
+   "E": 131,
+   "W": 111
+  }
+ },
+ "surge/seed_077": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 77,
+  "vehicles": 673,
+  "per_approach": {
+   "N": 226,
+   "S": 146,
+   "E": 154,
+   "W": 147
+  }
+ },
+ "surge/seed_078": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 78,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 150,
+   "S": 108,
+   "E": 221,
+   "W": 123
+  }
+ },
+ "surge/seed_079": {
+  "split": "validation",
+  "scenario": "surge",
+  "seed": 79,
+  "vehicles": 639,
+  "per_approach": {
+   "N": 143,
+   "S": 189,
+   "E": 154,
+   "W": 153
+  }
+ },
+ "surge/seed_080": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 80,
+  "vehicles": 507,
+  "per_approach": {
+   "N": 202,
+   "S": 89,
+   "E": 91,
+   "W": 125
+  }
+ },
+ "surge/seed_081": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 81,
+  "vehicles": 579,
+  "per_approach": {
+   "N": 242,
+   "S": 109,
+   "E": 112,
+   "W": 116
+  }
+ },
+ "surge/seed_082": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 82,
+  "vehicles": 602,
+  "per_approach": {
+   "N": 231,
+   "S": 144,
+   "E": 115,
+   "W": 112
+  }
+ },
+ "surge/seed_083": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 83,
+  "vehicles": 585,
+  "per_approach": {
+   "N": 114,
+   "S": 138,
+   "E": 106,
+   "W": 227
+  }
+ },
+ "surge/seed_084": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 84,
+  "vehicles": 584,
+  "per_approach": {
+   "N": 135,
+   "S": 117,
+   "E": 134,
+   "W": 198
+  }
+ },
+ "surge/seed_085": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 85,
+  "vehicles": 594,
+  "per_approach": {
+   "N": 98,
+   "S": 114,
+   "E": 138,
+   "W": 244
+  }
+ },
+ "surge/seed_086": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 86,
+  "vehicles": 578,
+  "per_approach": {
+   "N": 131,
+   "S": 158,
+   "E": 148,
+   "W": 141
+  }
+ },
+ "surge/seed_087": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 87,
+  "vehicles": 656,
+  "per_approach": {
+   "N": 151,
+   "S": 148,
+   "E": 131,
+   "W": 226
+  }
+ },
+ "surge/seed_088": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 88,
+  "vehicles": 592,
+  "per_approach": {
+   "N": 122,
+   "S": 238,
+   "E": 110,
+   "W": 122
+  }
+ },
+ "surge/seed_089": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 89,
+  "vehicles": 626,
+  "per_approach": {
+   "N": 142,
+   "S": 122,
+   "E": 137,
+   "W": 225
+  }
+ },
+ "surge/seed_090": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 90,
+  "vehicles": 629,
+  "per_approach": {
+   "N": 135,
+   "S": 245,
+   "E": 135,
+   "W": 114
+  }
+ },
+ "surge/seed_091": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 91,
+  "vehicles": 588,
+  "per_approach": {
+   "N": 127,
+   "S": 124,
+   "E": 155,
+   "W": 182
+  }
+ },
+ "surge/seed_092": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 92,
+  "vehicles": 545,
+  "per_approach": {
+   "N": 129,
+   "S": 183,
+   "E": 123,
+   "W": 110
+  }
+ },
+ "surge/seed_093": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 93,
+  "vehicles": 635,
+  "per_approach": {
+   "N": 134,
+   "S": 154,
+   "E": 225,
+   "W": 122
+  }
+ },
+ "surge/seed_094": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 94,
+  "vehicles": 674,
+  "per_approach": {
+   "N": 126,
+   "S": 137,
+   "E": 169,
+   "W": 242
+  }
+ },
+ "surge/seed_095": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 95,
+  "vehicles": 548,
+  "per_approach": {
+   "N": 185,
+   "S": 130,
+   "E": 127,
+   "W": 106
+  }
+ },
+ "surge/seed_096": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 96,
+  "vehicles": 556,
+  "per_approach": {
+   "N": 112,
+   "S": 134,
+   "E": 103,
+   "W": 207
+  }
+ },
+ "surge/seed_097": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 97,
+  "vehicles": 625,
+  "per_approach": {
+   "N": 148,
+   "S": 207,
+   "E": 139,
+   "W": 131
+  }
+ },
+ "surge/seed_098": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 98,
+  "vehicles": 613,
+  "per_approach": {
+   "N": 144,
+   "S": 124,
+   "E": 207,
+   "W": 138
+  }
+ },
+ "surge/seed_099": {
+  "split": "test",
+  "scenario": "surge",
+  "seed": 99,
+  "vehicles": 561,
+  "per_approach": {
+   "N": 125,
+   "S": 201,
+   "E": 116,
+   "W": 119
+  }
+ },
+ "unbalanced/seed_000": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 0,
+  "vehicles": 641,
+  "per_approach": {
+   "N": 238,
+   "S": 234,
+   "E": 80,
+   "W": 89
+  }
+ },
+ "unbalanced/seed_001": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 1,
+  "vehicles": 556,
+  "per_approach": {
+   "N": 70,
+   "S": 75,
+   "E": 192,
+   "W": 219
+  }
+ },
+ "unbalanced/seed_002": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 2,
+  "vehicles": 562,
+  "per_approach": {
+   "N": 195,
+   "S": 217,
+   "E": 80,
+   "W": 70
+  }
+ },
+ "unbalanced/seed_003": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 3,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 94,
+   "S": 59,
+   "E": 237,
+   "W": 216
+  }
+ },
+ "unbalanced/seed_004": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 4,
+  "vehicles": 644,
+  "per_approach": {
+   "N": 76,
+   "S": 74,
+   "E": 233,
+   "W": 261
+  }
+ },
+ "unbalanced/seed_005": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 5,
+  "vehicles": 618,
+  "per_approach": {
+   "N": 67,
+   "S": 69,
+   "E": 254,
+   "W": 228
+  }
+ },
+ "unbalanced/seed_006": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 6,
+  "vehicles": 635,
+  "per_approach": {
+   "N": 74,
+   "S": 89,
+   "E": 234,
+   "W": 238
+  }
+ },
+ "unbalanced/seed_007": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 7,
+  "vehicles": 680,
+  "per_approach": {
+   "N": 232,
+   "S": 288,
+   "E": 80,
+   "W": 80
+  }
+ },
+ "unbalanced/seed_008": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 8,
+  "vehicles": 642,
+  "per_approach": {
+   "N": 224,
+   "S": 248,
+   "E": 90,
+   "W": 80
+  }
+ },
+ "unbalanced/seed_009": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 9,
+  "vehicles": 677,
+  "per_approach": {
+   "N": 88,
+   "S": 75,
+   "E": 263,
+   "W": 251
+  }
+ },
+ "unbalanced/seed_010": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 10,
+  "vehicles": 546,
+  "per_approach": {
+   "N": 195,
+   "S": 209,
+   "E": 62,
+   "W": 80
+  }
+ },
+ "unbalanced/seed_011": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 11,
+  "vehicles": 600,
+  "per_approach": {
+   "N": 100,
+   "S": 75,
+   "E": 219,
+   "W": 206
+  }
+ },
+ "unbalanced/seed_012": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 12,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 186,
+   "S": 254,
+   "E": 91,
+   "W": 58
+  }
+ },
+ "unbalanced/seed_013": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 13,
+  "vehicles": 572,
+  "per_approach": {
+   "N": 73,
+   "S": 75,
+   "E": 207,
+   "W": 217
+  }
+ },
+ "unbalanced/seed_014": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 14,
+  "vehicles": 566,
+  "per_approach": {
+   "N": 223,
+   "S": 204,
+   "E": 72,
+   "W": 67
+  }
+ },
+ "unbalanced/seed_015": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 15,
+  "vehicles": 658,
+  "per_approach": {
+   "N": 238,
+   "S": 242,
+   "E": 87,
+   "W": 91
+  }
+ },
+ "unbalanced/seed_016": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 16,
+  "vehicles": 585,
+  "per_approach": {
+   "N": 218,
+   "S": 223,
+   "E": 75,
+   "W": 69
+  }
+ },
+ "unbalanced/seed_017": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 17,
+  "vehicles": 609,
+  "per_approach": {
+   "N": 86,
+   "S": 66,
+   "E": 232,
+   "W": 225
+  }
+ },
+ "unbalanced/seed_018": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 18,
+  "vehicles": 566,
+  "per_approach": {
+   "N": 70,
+   "S": 68,
+   "E": 242,
+   "W": 186
+  }
+ },
+ "unbalanced/seed_019": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 19,
+  "vehicles": 535,
+  "per_approach": {
+   "N": 194,
+   "S": 201,
+   "E": 58,
+   "W": 82
+  }
+ },
+ "unbalanced/seed_020": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 20,
+  "vehicles": 592,
+  "per_approach": {
+   "N": 70,
+   "S": 88,
+   "E": 188,
+   "W": 246
+  }
+ },
+ "unbalanced/seed_021": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 21,
+  "vehicles": 684,
+  "per_approach": {
+   "N": 89,
+   "S": 80,
+   "E": 250,
+   "W": 265
+  }
+ },
+ "unbalanced/seed_022": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 22,
+  "vehicles": 666,
+  "per_approach": {
+   "N": 76,
+   "S": 73,
+   "E": 238,
+   "W": 279
+  }
+ },
+ "unbalanced/seed_023": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 23,
+  "vehicles": 637,
+  "per_approach": {
+   "N": 91,
+   "S": 70,
+   "E": 246,
+   "W": 230
+  }
+ },
+ "unbalanced/seed_024": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 24,
+  "vehicles": 646,
+  "per_approach": {
+   "N": 68,
+   "S": 72,
+   "E": 260,
+   "W": 246
+  }
+ },
+ "unbalanced/seed_025": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 25,
+  "vehicles": 579,
+  "per_approach": {
+   "N": 73,
+   "S": 81,
+   "E": 216,
+   "W": 209
+  }
+ },
+ "unbalanced/seed_026": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 26,
+  "vehicles": 656,
+  "per_approach": {
+   "N": 231,
+   "S": 263,
+   "E": 76,
+   "W": 86
+  }
+ },
+ "unbalanced/seed_027": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 27,
+  "vehicles": 522,
+  "per_approach": {
+   "N": 73,
+   "S": 57,
+   "E": 202,
+   "W": 190
+  }
+ },
+ "unbalanced/seed_028": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 28,
+  "vehicles": 633,
+  "per_approach": {
+   "N": 254,
+   "S": 216,
+   "E": 84,
+   "W": 79
+  }
+ },
+ "unbalanced/seed_029": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 29,
+  "vehicles": 558,
+  "per_approach": {
+   "N": 58,
+   "S": 52,
+   "E": 252,
+   "W": 196
+  }
+ },
+ "unbalanced/seed_030": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 30,
+  "vehicles": 576,
+  "per_approach": {
+   "N": 231,
+   "S": 192,
+   "E": 72,
+   "W": 81
+  }
+ },
+ "unbalanced/seed_031": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 31,
+  "vehicles": 563,
+  "per_approach": {
+   "N": 60,
+   "S": 98,
+   "E": 181,
+   "W": 224
+  }
+ },
+ "unbalanced/seed_032": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 32,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 76,
+   "S": 71,
+   "E": 211,
+   "W": 252
+  }
+ },
+ "unbalanced/seed_033": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 33,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 235,
+   "S": 230,
+   "E": 65,
+   "W": 69
+  }
+ },
+ "unbalanced/seed_034": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 34,
+  "vehicles": 620,
+  "per_approach": {
+   "N": 270,
+   "S": 198,
+   "E": 85,
+   "W": 67
+  }
+ },
+ "unbalanced/seed_035": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 35,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 218,
+   "S": 220,
+   "E": 76,
+   "W": 75
+  }
+ },
+ "unbalanced/seed_036": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 36,
+  "vehicles": 571,
+  "per_approach": {
+   "N": 64,
+   "S": 77,
+   "E": 223,
+   "W": 207
+  }
+ },
+ "unbalanced/seed_037": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 37,
+  "vehicles": 551,
+  "per_approach": {
+   "N": 75,
+   "S": 76,
+   "E": 183,
+   "W": 217
+  }
+ },
+ "unbalanced/seed_038": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 38,
+  "vehicles": 632,
+  "per_approach": {
+   "N": 88,
+   "S": 69,
+   "E": 249,
+   "W": 226
+  }
+ },
+ "unbalanced/seed_039": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 39,
+  "vehicles": 660,
+  "per_approach": {
+   "N": 59,
+   "S": 89,
+   "E": 249,
+   "W": 263
+  }
+ },
+ "unbalanced/seed_040": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 40,
+  "vehicles": 636,
+  "per_approach": {
+   "N": 78,
+   "S": 77,
+   "E": 225,
+   "W": 256
+  }
+ },
+ "unbalanced/seed_041": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 41,
+  "vehicles": 590,
+  "per_approach": {
+   "N": 223,
+   "S": 227,
+   "E": 76,
+   "W": 64
+  }
+ },
+ "unbalanced/seed_042": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 42,
+  "vehicles": 616,
+  "per_approach": {
+   "N": 81,
+   "S": 81,
+   "E": 243,
+   "W": 211
+  }
+ },
+ "unbalanced/seed_043": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 43,
+  "vehicles": 595,
+  "per_approach": {
+   "N": 90,
+   "S": 71,
+   "E": 217,
+   "W": 217
+  }
+ },
+ "unbalanced/seed_044": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 44,
+  "vehicles": 646,
+  "per_approach": {
+   "N": 75,
+   "S": 82,
+   "E": 232,
+   "W": 257
+  }
+ },
+ "unbalanced/seed_045": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 45,
+  "vehicles": 630,
+  "per_approach": {
+   "N": 83,
+   "S": 65,
+   "E": 256,
+   "W": 226
+  }
+ },
+ "unbalanced/seed_046": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 46,
+  "vehicles": 659,
+  "per_approach": {
+   "N": 90,
+   "S": 69,
+   "E": 265,
+   "W": 235
+  }
+ },
+ "unbalanced/seed_047": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 47,
+  "vehicles": 658,
+  "per_approach": {
+   "N": 73,
+   "S": 69,
+   "E": 259,
+   "W": 257
+  }
+ },
+ "unbalanced/seed_048": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 48,
+  "vehicles": 655,
+  "per_approach": {
+   "N": 81,
+   "S": 66,
+   "E": 256,
+   "W": 252
+  }
+ },
+ "unbalanced/seed_049": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 49,
+  "vehicles": 640,
+  "per_approach": {
+   "N": 86,
+   "S": 67,
+   "E": 258,
+   "W": 229
+  }
+ },
+ "unbalanced/seed_050": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 50,
+  "vehicles": 652,
+  "per_approach": {
+   "N": 108,
+   "S": 84,
+   "E": 246,
+   "W": 214
+  }
+ },
+ "unbalanced/seed_051": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 51,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 254,
+   "S": 193,
+   "E": 95,
+   "W": 64
+  }
+ },
+ "unbalanced/seed_052": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 52,
+  "vehicles": 568,
+  "per_approach": {
+   "N": 250,
+   "S": 183,
+   "E": 70,
+   "W": 65
+  }
+ },
+ "unbalanced/seed_053": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 53,
+  "vehicles": 540,
+  "per_approach": {
+   "N": 216,
+   "S": 182,
+   "E": 67,
+   "W": 75
+  }
+ },
+ "unbalanced/seed_054": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 54,
+  "vehicles": 566,
+  "per_approach": {
+   "N": 184,
+   "S": 246,
+   "E": 72,
+   "W": 64
+  }
+ },
+ "unbalanced/seed_055": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 55,
+  "vehicles": 589,
+  "per_approach": {
+   "N": 88,
+   "S": 81,
+   "E": 238,
+   "W": 182
+  }
+ },
+ "unbalanced/seed_056": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 56,
+  "vehicles": 594,
+  "per_approach": {
+   "N": 203,
+   "S": 223,
+   "E": 87,
+   "W": 81
+  }
+ },
+ "unbalanced/seed_057": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 57,
+  "vehicles": 661,
+  "per_approach": {
+   "N": 66,
+   "S": 94,
+   "E": 243,
+   "W": 258
+  }
+ },
+ "unbalanced/seed_058": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 58,
+  "vehicles": 599,
+  "per_approach": {
+   "N": 101,
+   "S": 63,
+   "E": 227,
+   "W": 208
+  }
+ },
+ "unbalanced/seed_059": {
+  "split": "train",
+  "scenario": "unbalanced",
+  "seed": 59,
+  "vehicles": 619,
+  "per_approach": {
+   "N": 241,
+   "S": 249,
+   "E": 69,
+   "W": 60
+  }
+ },
+ "unbalanced/seed_060": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 60,
+  "vehicles": 590,
+  "per_approach": {
+   "N": 76,
+   "S": 49,
+   "E": 219,
+   "W": 246
+  }
+ },
+ "unbalanced/seed_061": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 61,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 73,
+   "S": 85,
+   "E": 223,
+   "W": 229
+  }
+ },
+ "unbalanced/seed_062": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 62,
+  "vehicles": 571,
+  "per_approach": {
+   "N": 199,
+   "S": 245,
+   "E": 62,
+   "W": 65
+  }
+ },
+ "unbalanced/seed_063": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 63,
+  "vehicles": 583,
+  "per_approach": {
+   "N": 63,
+   "S": 72,
+   "E": 224,
+   "W": 224
+  }
+ },
+ "unbalanced/seed_064": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 64,
+  "vehicles": 554,
+  "per_approach": {
+   "N": 189,
+   "S": 221,
+   "E": 64,
+   "W": 80
+  }
+ },
+ "unbalanced/seed_065": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 65,
+  "vehicles": 614,
+  "per_approach": {
+   "N": 70,
+   "S": 75,
+   "E": 254,
+   "W": 215
+  }
+ },
+ "unbalanced/seed_066": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 66,
+  "vehicles": 565,
+  "per_approach": {
+   "N": 70,
+   "S": 70,
+   "E": 213,
+   "W": 212
+  }
+ },
+ "unbalanced/seed_067": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 67,
+  "vehicles": 585,
+  "per_approach": {
+   "N": 73,
+   "S": 93,
+   "E": 204,
+   "W": 215
+  }
+ },
+ "unbalanced/seed_068": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 68,
+  "vehicles": 503,
+  "per_approach": {
+   "N": 205,
+   "S": 171,
+   "E": 55,
+   "W": 72
+  }
+ },
+ "unbalanced/seed_069": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 69,
+  "vehicles": 569,
+  "per_approach": {
+   "N": 243,
+   "S": 191,
+   "E": 66,
+   "W": 69
+  }
+ },
+ "unbalanced/seed_070": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 70,
+  "vehicles": 582,
+  "per_approach": {
+   "N": 94,
+   "S": 59,
+   "E": 199,
+   "W": 230
+  }
+ },
+ "unbalanced/seed_071": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 71,
+  "vehicles": 586,
+  "per_approach": {
+   "N": 62,
+   "S": 98,
+   "E": 221,
+   "W": 205
+  }
+ },
+ "unbalanced/seed_072": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 72,
+  "vehicles": 585,
+  "per_approach": {
+   "N": 236,
+   "S": 203,
+   "E": 58,
+   "W": 88
+  }
+ },
+ "unbalanced/seed_073": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 73,
+  "vehicles": 606,
+  "per_approach": {
+   "N": 62,
+   "S": 81,
+   "E": 205,
+   "W": 258
+  }
+ },
+ "unbalanced/seed_074": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 74,
+  "vehicles": 614,
+  "per_approach": {
+   "N": 77,
+   "S": 82,
+   "E": 219,
+   "W": 236
+  }
+ },
+ "unbalanced/seed_075": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 75,
+  "vehicles": 595,
+  "per_approach": {
+   "N": 223,
+   "S": 220,
+   "E": 89,
+   "W": 63
+  }
+ },
+ "unbalanced/seed_076": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 76,
+  "vehicles": 558,
+  "per_approach": {
+   "N": 72,
+   "S": 73,
+   "E": 218,
+   "W": 195
+  }
+ },
+ "unbalanced/seed_077": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 77,
+  "vehicles": 620,
+  "per_approach": {
+   "N": 100,
+   "S": 67,
+   "E": 226,
+   "W": 227
+  }
+ },
+ "unbalanced/seed_078": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 78,
+  "vehicles": 617,
+  "per_approach": {
+   "N": 92,
+   "S": 70,
+   "E": 243,
+   "W": 212
+  }
+ },
+ "unbalanced/seed_079": {
+  "split": "validation",
+  "scenario": "unbalanced",
+  "seed": 79,
+  "vehicles": 579,
+  "per_approach": {
+   "N": 231,
+   "S": 199,
+   "E": 56,
+   "W": 93
+  }
+ },
+ "unbalanced/seed_080": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 80,
+  "vehicles": 541,
+  "per_approach": {
+   "N": 77,
+   "S": 66,
+   "E": 206,
+   "W": 192
+  }
+ },
+ "unbalanced/seed_081": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 81,
+  "vehicles": 591,
+  "per_approach": {
+   "N": 63,
+   "S": 90,
+   "E": 212,
+   "W": 226
+  }
+ },
+ "unbalanced/seed_082": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 82,
+  "vehicles": 651,
+  "per_approach": {
+   "N": 95,
+   "S": 71,
+   "E": 242,
+   "W": 243
+  }
+ },
+ "unbalanced/seed_083": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 83,
+  "vehicles": 660,
+  "per_approach": {
+   "N": 255,
+   "S": 243,
+   "E": 79,
+   "W": 83
+  }
+ },
+ "unbalanced/seed_084": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 84,
+  "vehicles": 620,
+  "per_approach": {
+   "N": 227,
+   "S": 253,
+   "E": 58,
+   "W": 82
+  }
+ },
+ "unbalanced/seed_085": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 85,
+  "vehicles": 593,
+  "per_approach": {
+   "N": 218,
+   "S": 221,
+   "E": 77,
+   "W": 77
+  }
+ },
+ "unbalanced/seed_086": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 86,
+  "vehicles": 591,
+  "per_approach": {
+   "N": 256,
+   "S": 177,
+   "E": 92,
+   "W": 66
+  }
+ },
+ "unbalanced/seed_087": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 87,
+  "vehicles": 575,
+  "per_approach": {
+   "N": 202,
+   "S": 232,
+   "E": 69,
+   "W": 72
+  }
+ },
+ "unbalanced/seed_088": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 88,
+  "vehicles": 559,
+  "per_approach": {
+   "N": 196,
+   "S": 216,
+   "E": 73,
+   "W": 74
+  }
+ },
+ "unbalanced/seed_089": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 89,
+  "vehicles": 634,
+  "per_approach": {
+   "N": 56,
+   "S": 62,
+   "E": 270,
+   "W": 246
+  }
+ },
+ "unbalanced/seed_090": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 90,
+  "vehicles": 582,
+  "per_approach": {
+   "N": 239,
+   "S": 204,
+   "E": 64,
+   "W": 75
+  }
+ },
+ "unbalanced/seed_091": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 91,
+  "vehicles": 507,
+  "per_approach": {
+   "N": 199,
+   "S": 203,
+   "E": 48,
+   "W": 57
+  }
+ },
+ "unbalanced/seed_092": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 92,
+  "vehicles": 533,
+  "per_approach": {
+   "N": 228,
+   "S": 170,
+   "E": 63,
+   "W": 72
+  }
+ },
+ "unbalanced/seed_093": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 93,
+  "vehicles": 576,
+  "per_approach": {
+   "N": 69,
+   "S": 90,
+   "E": 239,
+   "W": 178
+  }
+ },
+ "unbalanced/seed_094": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 94,
+  "vehicles": 570,
+  "per_approach": {
+   "N": 79,
+   "S": 65,
+   "E": 214,
+   "W": 212
+  }
+ },
+ "unbalanced/seed_095": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 95,
+  "vehicles": 571,
+  "per_approach": {
+   "N": 196,
+   "S": 203,
+   "E": 81,
+   "W": 91
+  }
+ },
+ "unbalanced/seed_096": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 96,
+  "vehicles": 536,
+  "per_approach": {
+   "N": 58,
+   "S": 73,
+   "E": 192,
+   "W": 213
+  }
+ },
+ "unbalanced/seed_097": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 97,
+  "vehicles": 611,
+  "per_approach": {
+   "N": 84,
+   "S": 90,
+   "E": 211,
+   "W": 226
+  }
+ },
+ "unbalanced/seed_098": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 98,
+  "vehicles": 651,
+  "per_approach": {
+   "N": 224,
+   "S": 238,
+   "E": 91,
+   "W": 98
+  }
+ },
+ "unbalanced/seed_099": {
+  "split": "test",
+  "scenario": "unbalanced",
+  "seed": 99,
+  "vehicles": 610,
+  "per_approach": {
+   "N": 80,
+   "S": 102,
+   "E": 191,
+   "W": 237
+  }
+ }
+}

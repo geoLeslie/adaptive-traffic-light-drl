@@ -1,0 +1,17 @@
+{
+  "measured_on": "2026-10-05",
+  "lane_width_m": 3.2,
+  "S0_textbook_600xWe": 1920,
+  "method": "North approach oversaturated (1800 veh/h), others 300 veh/h, fixed 40/20, 1 h; S = vehicles leaving N2C during NS green with >= 3 queued, per hour of green.",
+  "mixed_turns": {
+    "discharged": 433,
+    "saturated_green_seconds": 1674,
+    "S_veh_per_hour_green": 931
+  },
+  "straight_only": {
+    "discharged": 645,
+    "saturated_green_seconds": 1334,
+    "S_veh_per_hour_green": 1741
+  },
+  "S_design": 931
+}

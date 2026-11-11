@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Two green phase groups with 3 s yellow and 1 s all-red between them.
+  Signal string index -> movement (r = right, s = straight, l = left):
+     0 N r   1 N s   2 N l   |   3 S r   4 S s   5 S l    (North-South group)
+     6 E r   7 E s   8 E l   |   9 W r  10 W s  11 W l    (East-West group)
+  "G" = green with priority, "g" = green but must yield.
+  Left-hand traffic (Indonesia): the RIGHT turn crosses oncoming traffic, so it is the
+  permissive "g" movement; straight and left turns have priority.
+  Phase index (used by controllers via traci.trafficlight.setPhase):
+    0 NS green | 1 NS yellow | 2 all-red | 3 EW green | 4 EW yellow | 5 all-red
+  Default greens are the MKJI/PKJI design (23/24 s, see configs/mkji_timer.json). RL and queue controllers
+  override it at runtime, bounded by min 10 s / max 60 s green.
+-->
+<tlLogics>
+    <tlLogic id="C" type="static" programID="0" offset="0">
+        <phase duration="23" minDur="10" maxDur="60" state="gGGgGGrrrrrr" name="NS_green"/>
+        <phase duration="3"  state="yyyyyyrrrrrr" name="NS_yellow"/>
+        <phase duration="1"  state="rrrrrrrrrrrr" name="all_red_1"/>
+        <phase duration="24" minDur="10" maxDur="60" state="rrrrrrgGGgGG" name="EW_green"/>
+        <phase duration="3"  state="rrrrrryyyyyy" name="EW_yellow"/>
+        <phase duration="1"  state="rrrrrrrrrrrr" name="all_red_2"/>
+    </tlLogic>
+
+    <connection from="N2C" to="C2W" fromLane="0" toLane="0" tl="C" linkIndex="0"/>
+    <connection from="N2C" to="C2S" fromLane="0" toLane="0" tl="C" linkIndex="1"/>
+    <connection from="N2C" to="C2E" fromLane="0" toLane="0" tl="C" linkIndex="2"/>
+
+    <connection from="S2C" to="C2E" fromLane="0" toLane="0" tl="C" linkIndex="3"/>
+    <connection from="S2C" to="C2N" fromLane="0" toLane="0" tl="C" linkIndex="4"/>
+    <connection from="S2C" to="C2W" fromLane="0" toLane="0" tl="C" linkIndex="5"/>
+
+    <connection from="E2C" to="C2N" fromLane="0" toLane="0" tl="C" linkIndex="6"/>
+    <connection from="E2C" to="C2W" fromLane="0" toLane="0" tl="C" linkIndex="7"/>
+    <connection from="E2C" to="C2S" fromLane="0" toLane="0" tl="C" linkIndex="8"/>
+
+    <connection from="W2C" to="C2S" fromLane="0" toLane="0" tl="C" linkIndex="9"/>
+    <connection from="W2C" to="C2E" fromLane="0" toLane="0" tl="C" linkIndex="10"/>
+    <connection from="W2C" to="C2N" fromLane="0" toLane="0" tl="C" linkIndex="11"/>
+</tlLogics>

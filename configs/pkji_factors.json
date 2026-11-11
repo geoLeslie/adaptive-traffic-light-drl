@@ -1,0 +1,38 @@
+{
+  "_source": "PKJI 2023 (Pedoman Kapasitas Jalan Indonesia, No. 09/P/BM/2023), Bab 5 Kapasitas Simpang APILL and Lampiran 12. Page numbers are the document's own 'x dari 326'.",
+  "_formula": "J = J0 x FHS x FUK x FG x FP x FBKi x FBKa  (Persamaan 5-4, hal. 108)",
+
+  "approach_type": "O",
+  "approach_type_basis": "Right turns share the lane and get green together with the opposing straight flow, so the approach is 'terlawan' (tipe O), Gambar 5-4 hal. 106.",
+  "LE_m": 3.2,
+
+  "J0_type_O": {
+    "source": "Gambar 12-2 hal. 257: J0 untuk pendekat tak terlindung (tipe O) tanpa lajur belok kanan terpisah, fungsi dari LE, qBKa, qBKa,O. Values read off the graph by eye (+-20 SMP/jam).",
+    "points": {
+      "_key": "LE -> qBKa,O curve -> {qBKa: J0}",
+      "3.0": {"50":  {"50": 1665, "100": 1615}, "100": {"50": 1495, "100": 1550}},
+      "4.0": {"50":  {"50": 2205, "100": 2100}, "100": {"50": 1980, "100": 2030}}
+    },
+    "interpolation": "linear in qBKa, qBKa,O and LE, as the PKJI example on hal. 109 interpolates in LE"
+  },
+  "J0_type_P_formula": "600 x LE (Persamaan 5-6, hal. 108), kept for reference only",
+
+  "FHS_side_friction": {"value": 1.00, "basis": "Tabel 12-3 hal. 270: akses terbatas (AT), terlawan, rasio kendaraan tak bermotor 0,00 -> 1,00"},
+  "FUK_city_size":     {"value": 1.05, "basis": "Tabel 12-1 hal. 269: penduduk > 3,0 juta jiwa (Jakarta) -> 1,05"},
+  "FG_gradient":       {"value": 1.00, "basis": "Gambar 12-10 hal. 265: kelandaian 0%"},
+  "FP_parking":        {"value": 1.00, "basis": "Persamaan 5-5 / Gambar 12-11: no parking near the stop line"},
+  "FBKa_right_turn":   {"value": 1.00, "basis": "Gambar 12-12 hal. 266 (FBKa = 1 + 0,26 x RBKa) applies to tipe P only; for tipe O the right-turn effect is already inside J0 (Gambar 12-2)."},
+  "FBKi_left_turn":    {"value": 1.00, "basis": "Gambar 12-13 hal. 266 (FBKi = 1 - 0,16 x RBKi) applies to tipe P only."},
+
+  "right_turn_share": 0.2,
+
+  "signal_timing_checks": {
+    "wK_yellow_s": "3,0 s, usual in Indonesian cities (hal. 112). Ours: 3 s. OK",
+    "wAH_intergreen_s": "Tabel 5-1 hal. 103: small intersection (average road width 6 to <10 m) -> 4 s per phase. Ours: road width 2 x 3,2 = 6,4 m; 3 s yellow + 1 s all-red = 4 s. OK",
+    "wHH": "Persamaan 5-10 hal. 112: sum of (wMS + wK) = 2 x 4 = 8 s. OK",
+    "cycle_formula": "Persamaan 5-11 hal. 112: s = (1,5 x wHH + 5) / (1 - sum Rq/J kritis), Webster (1966). OK",
+    "green_formula": "Persamaan 5-12 hal. 113: wHi = (s - wHH) x Rq/J kritis / sum Rq/J kritis. OK",
+    "cycle_range": "Tabel 12-2 hal. 269: two-phase 40-80 s; low values for approach width < 10 m (hal. 124). OK",
+    "design_criterion": "DJ <= 0,85 (hal. 104, 116)"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "method": "MKJI 1997 / PKJI simpang APILL (Webster cycle formula), 2 phases",
+  "S_veh_per_hour_green": 931.0,
+  "S_info": {
+    "source": "measured in SUMO (configs/saturation.json)"
+  },
+  "design_demand": {
+    "split": "validation",
+    "episodes": 80,
+    "q_NS": 311.5,
+    "q_EW": 333.3
+  },
+  "FR_NS": 0.335,
+  "FR_EW": 0.358,
+  "IFR": 0.693,
+  "LTI_s": 8.0,
+  "cycle_calculated_s": 55.3,
+  "cycle_range_s": [
+    40.0,
+    80.0
+  ],
+  "green_ns": 23,
+  "green_ew": 24,
+  "cycle_s": 55.0,
+  "degree_of_saturation_NS": 0.8,
+  "degree_of_saturation_EW": 0.82,
+  "note": "Designed once from validation demand and frozen. Used unchanged for every scenario and seed."
+}

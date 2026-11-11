@@ -1,0 +1,7 @@
+# Simulator (pinned together; versions must match)
+eclipse-sumo==1.27.1
+traci==1.27.1
+sumolib==1.27.1
+libsumo==1.27.1
+
+# RL stack (gymnasium, stable-baselines3, torch) is added when the environment is built

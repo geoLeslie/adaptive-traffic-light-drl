@@ -1,0 +1,41 @@
+{
+  "method": "MKJI 1997 / PKJI simpang APILL (Webster cycle formula), 2 phases",
+  "S_veh_per_hour_green": 1798,
+  "S_info": {
+    "source": "PKJI 2023 Persamaan 5-4, tipe O (configs/pkji_factors.json)",
+    "factors": {
+      "approach_type": "O",
+      "qBKa": 64.5,
+      "qBKa_O": 64.5,
+      "LE": 3.2,
+      "J0": 1713,
+      "FHS": 1.0,
+      "FUK": 1.05,
+      "FG": 1.0,
+      "FP": 1.0,
+      "FBKi": 1.0,
+      "FBKa": 1.0
+    }
+  },
+  "design_demand": {
+    "split": "validation",
+    "episodes": 80,
+    "q_NS": 311.5,
+    "q_EW": 333.3
+  },
+  "FR_NS": 0.173,
+  "FR_EW": 0.185,
+  "IFR": 0.359,
+  "LTI_s": 8.0,
+  "cycle_calculated_s": 26.5,
+  "cycle_range_s": [
+    40.0,
+    80.0
+  ],
+  "green_ns": 15,
+  "green_ew": 17,
+  "cycle_s": 40.0,
+  "degree_of_saturation_NS": 0.46,
+  "degree_of_saturation_EW": 0.44,
+  "note": "Designed once from validation demand and frozen. Used unchanged for every scenario and seed."
+}

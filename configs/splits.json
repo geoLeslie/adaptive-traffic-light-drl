@@ -1,0 +1,6 @@
+{
+  "_note": "Fixed before any tuning. train: learn. validation: pick model, reward and baseline parameters. test: final evaluation only. 'stress' is held out of train and validation to test generalization to heavier traffic.",
+  "train":      {"seeds": [0, 59],  "scenarios": ["balanced", "unbalanced", "surge", "shift"]},
+  "validation": {"seeds": [60, 79], "scenarios": ["balanced", "unbalanced", "surge", "shift"]},
+  "test":       {"seeds": [80, 99], "scenarios": ["balanced", "unbalanced", "surge", "shift", "stress"]}
+}
