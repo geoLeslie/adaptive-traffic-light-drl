@@ -1,0 +1,134 @@
+[
+  {
+    "controller": "fixed_pkji",
+    "scenario": "balanced",
+    "seed": 80,
+    "decision_interval_s": 1,
+    "total_decision_steps": 1613,
+    "total_switches": 95,
+    "overall_avg_wait_s": 12.9,
+    "throughput": 581,
+    "csv_file": "replay_fixed_pkji_balanced_s80.csv"
+  },
+  {
+    "controller": "queue_rule",
+    "scenario": "balanced",
+    "seed": 80,
+    "decision_interval_s": 5,
+    "total_decision_steps": 396,
+    "total_switches": 90,
+    "overall_avg_wait_s": 10.08,
+    "throughput": 581,
+    "csv_file": "replay_queue_rule_balanced_s80.csv"
+  },
+  {
+    "controller": "dqn_full_s100",
+    "scenario": "balanced",
+    "seed": 80,
+    "decision_interval_s": 5,
+    "total_decision_steps": 183,
+    "total_switches": 105,
+    "total_forced_max_green": 0,
+    "cumulative_reward": -49.63,
+    "csv_file": "replay_dqn_full_s100_balanced_s80.csv"
+  },
+  {
+    "controller": "fixed_pkji",
+    "scenario": "unbalanced",
+    "seed": 81,
+    "decision_interval_s": 1,
+    "total_decision_steps": 1811,
+    "total_switches": 106,
+    "overall_avg_wait_s": 33.05,
+    "throughput": 591,
+    "csv_file": "replay_fixed_pkji_unbalanced_s81.csv"
+  },
+  {
+    "controller": "queue_rule",
+    "scenario": "unbalanced",
+    "seed": 81,
+    "decision_interval_s": 5,
+    "total_decision_steps": 382,
+    "total_switches": 73,
+    "overall_avg_wait_s": 13.15,
+    "throughput": 591,
+    "csv_file": "replay_queue_rule_unbalanced_s81.csv"
+  },
+  {
+    "controller": "dqn_full_s100",
+    "scenario": "unbalanced",
+    "seed": 81,
+    "decision_interval_s": 5,
+    "total_decision_steps": 219,
+    "total_switches": 84,
+    "total_forced_max_green": 0,
+    "cumulative_reward": -124.24,
+    "csv_file": "replay_dqn_full_s100_unbalanced_s81.csv"
+  },
+  {
+    "controller": "fixed_pkji",
+    "scenario": "shift",
+    "seed": 97,
+    "decision_interval_s": 1,
+    "total_decision_steps": 1835,
+    "total_switches": 108,
+    "overall_avg_wait_s": 49.28,
+    "throughput": 630,
+    "csv_file": "replay_fixed_pkji_shift_s97.csv"
+  },
+  {
+    "controller": "queue_rule",
+    "scenario": "shift",
+    "seed": 97,
+    "decision_interval_s": 5,
+    "total_decision_steps": 383,
+    "total_switches": 63,
+    "overall_avg_wait_s": 17.34,
+    "throughput": 630,
+    "csv_file": "replay_queue_rule_shift_s97.csv"
+  },
+  {
+    "controller": "dqn_full_s100",
+    "scenario": "shift",
+    "seed": 97,
+    "decision_interval_s": 5,
+    "total_decision_steps": 228,
+    "total_switches": 74,
+    "total_forced_max_green": 0,
+    "cumulative_reward": -81.02,
+    "csv_file": "replay_dqn_full_s100_shift_s97.csv"
+  },
+  {
+    "controller": "fixed_pkji",
+    "scenario": "stress",
+    "seed": 89,
+    "decision_interval_s": 1,
+    "total_decision_steps": 1963,
+    "total_switches": 115,
+    "overall_avg_wait_s": 69.93,
+    "throughput": 1004,
+    "csv_file": "replay_fixed_pkji_stress_s89.csv"
+  },
+  {
+    "controller": "queue_rule",
+    "scenario": "stress",
+    "seed": 89,
+    "decision_interval_s": 5,
+    "total_decision_steps": 483,
+    "total_switches": 100,
+    "overall_avg_wait_s": 81.8,
+    "throughput": 1004,
+    "csv_file": "replay_queue_rule_stress_s89.csv"
+  },
+  {
+    "controller": "dqn_full_s100",
+    "scenario": "stress",
+    "seed": 89,
+    "decision_interval_s": 5,
+    "total_decision_steps": 168,
+    "total_switches": 155,
+    "total_forced_max_green": 0,
+    "cumulative_reward": -550.58,
+    "csv_file": "replay_dqn_full_s100_stress_s89.csv"
+  }
+]
