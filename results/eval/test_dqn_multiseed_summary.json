@@ -1,0 +1,12 @@
+{
+  "selected_best_val_model": "dqn_full_s100",
+  "models": [
+    "dqn_full_s42",
+    "dqn_full_s100",
+    "dqn_full_s2026"
+  ],
+  "test_ALL_avg_wait_mean": 20.36,
+  "test_ALL_avg_wait_std": 0.14,
+  "test_stress_avg_wait_mean": 50.47,
+  "test_stress_avg_wait_std": 0.23
+}
