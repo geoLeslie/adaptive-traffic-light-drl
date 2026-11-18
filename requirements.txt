@@ -1,12 +1,7 @@
 # Simulator (pinned together; versions must match)
-# Matches the SUMO 1.28.0 executables selected through SUMO_HOME on this machine.
-eclipse-sumo==1.28.0
-traci==1.28.0
-sumolib==1.28.0
-libsumo==1.28.0
+eclipse-sumo==1.27.1
+traci==1.27.1
+sumolib==1.27.1
+libsumo==1.27.1
 
 # RL stack (gymnasium, stable-baselines3, torch) is added when the environment is built
-gymnasium==1.4.0
-stable-baselines3==2.9.2
-torch==2.15.0
-matplotlib==3.11.2

@@ -1,43 +1,89 @@
-# Adaptive Traffic Light Control with Deep Reinforcement Learning (SUMO + DQN)
+# Adaptive Traffic Light Control with Deep Reinforcement Learning
 
-Deep Q-Network (DQN) traffic signal controller for an isolated four-approach urban intersection in **SUMO (`1.28.0` / `libsumo`)**, benchmarked against Indonesian **PKJI** fixed-time signal plans and an adaptive **Queue-Rule** heuristic across five demand regimes (`balanced`, `unbalanced`, `surge`, `shift`, and unseen `stress`).
+**Can an AI traffic light beat Indonesia's own official timing standard?**
 
-**Current Project Status (2026-11-18):** **Steps 1–11 Complete.** Environment, baselines, multi-seed DQN training (`150k` steps), validation model selection (`dqn_full_s100`), locked held-out `test` evaluation (`seeds 80–99`), error analysis, waiting-time feature ablation, high-resolution figures, and step-by-step replay exports are complete. See [`docs/findings_dqn_test.md`](docs/findings_dqn_test.md) for full experimental findings.
+A DQN controller for a simulated 4-way intersection in [SUMO](https://eclipse.dev/sumo/), tested against a fixed timer designed with Indonesia's road capacity manual (PKJI 2023) and a simple queue-based rule. Deep Learning final project (COMP6826001), BINUS University.
 
----
+> **Status: in progress.** Simulator, scenarios and baselines are done. The Gymnasium environment and DQN training are next.
 
-## Held-Out Test Split Benchmark (`seeds 80–99`, 100 Episodes)
+![Baseline results](docs/traffic_rl_baselines.png)
 
-| Controller | Mean Wait (`s`) | Max Wait (`s`) | Worst-Appr Wait (`s`) | Mean Queue (`veh`) | Throughput (`veh`) | Unserved (`veh`) | Unseen `stress` Wait (`s`) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `fixed_pkji` (Static Timer) | 35.97 ± 18.41 | 135.79 ± 47.32 | 56.53 ± 26.65 | 11.93 ± 7.89 | 671.05 | 2.07 | 62.92 ± 7.80 |
-| `queue_rule` (Adaptive Heuristic) | 24.34 ± 22.19 | 111.95 ± 70.74 | 35.29 ± 33.34 | 8.93 ± 9.83 | 671.91 | 1.34 | 67.42 ± 8.06 |
-| **`dqn_full_s100` (Selected DQN)** | **20.31 ± 15.79** | **80.36 ± 29.97** | **27.54 ± 19.36** | **7.44 ± 7.33** | **672.76** | **0.32** | **50.56 ± 7.30** |
-| `dqn_ablation_nowait_s100` | 20.94 ± 15.21 | 86.39 ± 29.95 | 28.37 ± 19.12 | 7.61 ± 7.18 | 672.81 | 0.20 | 49.99 ± 7.60 |
+## Baseline results (validation, 80 episodes)
 
-- **Primary Target (`< 24.5 s` and `>= 10%` better than `fixed_pkji`):** Achieved **`20.31 s`** (**`-43.5%`** vs. `fixed_pkji`) with zero throughput loss (`672.76` vs. `671.05`) and **`-84.5%`** lower unserved backlog.
-- **Secondary Benchmark (`queue_rule`):** Outperforms `queue_rule` by **`-16.6%`** overall and **`-25.0%`** on unseen `stress` congestion.
+| Controller | How it works | Avg wait | Max wait | Avg queue |
+|---|---|---|---|---|
+| Fixed timer, PKJI 2023 | Green 15/17 s, 40 s cycle, designed with the official PKJI 2023 procedure | 27.2 s | 124 s | 8.0 |
+| Queue rule | After minimum green, switch when the red side's queue is longer by more than 1 vehicle | **13.1 s** | 78 s | 4.0 |
+| **DQN (target)** | Keep or switch every 5 s, learned from simulation | **< 24.5 s** (10% better than PKJI) | | |
 
----
+Average wait per scenario:
 
-## Project Roadmap
+| Scenario | PKJI fixed timer | Queue rule |
+|---|---|---|
+| Balanced | 14.9 s | 12.4 s |
+| Unbalanced | 37.9 s | 12.1 s |
+| Surge | 23.5 s | 15.3 s |
+| Shift | 32.5 s | 12.5 s |
 
-- [x] **Steps 1–3:** SUMO network, 5 demand regimes (`balanced`, `unbalanced`, `surge`, `shift`, `stress`), and train/val/test seed splits (`configs/splits.json`).
-- [x] **Steps 4–5:** PKJI/MKJI fixed-time and tuned adaptive `queue_rule` baselines (`docs/findings_baselines_pkji.md`).
-- [x] **Steps 6–7:** Gymnasium `TrafficSignalEnv` (`11-D` state, safety-enforced phase transitions) & multi-seed DQN training (`s42`, `s100`, `s2026`).
-- [x] **Step 8:** Validation checkpoint & seed selection (`dqn_full_s100` selected at `11.93 s` across 80 validation episodes).
-- [x] **Step 9:** Locked held-out `test` split evaluation (`results/eval/final_test_summary_table.csv`).
-- [x] **Step 10:** Episode-level error analysis (`results/eval/error_analysis_report.json`) & waiting-time feature ablation (`dqn_ablation_nowait_s100`).
-- [x] **Step 11:** Step-by-step episode replay exports (`results/replays/replay_manifest.json`).
-- [ ] **Steps 12–14:** Interactive web replay visualizer (`web/`), final academic report (`report/`), and demo video.
+**Findings so far**
+- The fixed timer can't adapt: on unbalanced traffic its wait triples, while the queue rule stays flat. This is where an adaptive controller should help.
+- The queue rule is 52% better than PKJI, so it is kept as a second baseline. If the DQN only beats PKJI, the gain comes from reacting to queues, not from learning.
+- SUMO's measured saturation flow (931 veh/h of green with mixed turns) is about half what PKJI predicts (1,798 pcu/h). PKJI itself notes that Indonesian drivers turn more aggressively than the gap-acceptance model SUMO uses, so results apply to the simulator only.
 
----
+Full analysis (Indonesian): [`docs/findings_baselines_pkji.md`](docs/findings_baselines_pkji.md). Per-episode data: [`results/eval/`](results/eval/).
 
-## Key Repository Artifacts
+## Setup
 
-- `configs/` — Environment (`env.json`), DQN hyperparameters (`dqn.json`), signal plans (`pkji_timer.json`, `queue_rule.json`), and split definitions (`splits.json`).
-- `scripts/` — Training (`train_dqn.py`), locked test evaluation (`evaluate_test.py`), error trace (`error_analysis.py`), ablation (`run_ablation_nowait.py`), plotting (`plot_results.py`), and replay export (`export_replays.py`).
-- `results/eval/` — Raw episode CSVs, `final_test_summary_table.csv`, `test_dqn_multiseed_summary.json`, and `error_analysis_report.json`.
-- `results/figures/` — Publication-ready 300-DPI charts (`fig1_validation_model_selection.png`, `fig2_dqn_learning_curves.png`, `fig3_test_scenario_comparison.png`).
-- `results/replays/` — Step-by-step trajectory CSVs and `replay_manifest.json` comparing `fixed_pkji`, `queue_rule`, and `dqn_full_s100`.
-- `docs/` — Formulation (`rl_formulation.md`), baseline findings (`findings_baselines_pkji.md`), and complete DQN test/ablation findings (`findings_dqn_test.md`).
+| Item | Value |
+|---|---|
+| Intersection | One 4-way junction, 200 m arms, 1 lane per direction, 50 km/h |
+| Driving side | Left-hand traffic (Indonesia), straight, left and right turns from every approach |
+| Phases | NS green, EW green; yellow 3 s and all-red 1 s between |
+| Safety rules (all controllers) | Green 10 to 60 s, transitions can't be cut short, every intervention logged |
+| Episode | 1,800 s of arrivals plus up to 600 s clearance |
+| Scenarios | balanced, unbalanced, surge, shift, plus a held-out stress test |
+| Seeds | train 0 to 59, validation 60 to 79, test 80 to 99, fixed before any tuning ([`configs/splits.json`](configs/splits.json)) |
+| Metrics | Avg and max wait, queue length, throughput, unserved vehicles |
+
+## Folder layout
+
+| Folder | Contents |
+|---|---|
+| `sumo/network/` | Intersection source files and the built `.net.xml` |
+| `sumo/routes/` | Demand files; generated per-seed files are rebuilt with `scripts/generate_scenarios.py` |
+| `src/traffic_rl/` | Python package: signal manager with safety rules, controllers, metrics, scenarios, evaluation |
+| `scripts/` | Entry points: build network, generate scenarios, run episode, measure saturation, design timers, tune, evaluate |
+| `configs/` | Seed split, PKJI factors with page references, timer designs, queue rule |
+| `results/eval/` | Baseline evaluation results (per episode and aggregate) |
+| `docs/` | Project plan, week 1-2 recap, baseline findings, chart |
+| `models/`, `web/`, `report/`, `notebooks/` | DQN checkpoints, replay web app, final report (coming) |
+
+## How to run (Windows)
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt     # SUMO comes from the eclipse-sumo pip package
+
+python scripts\build_network.py
+python scripts\generate_scenarios.py
+python scripts\evaluate.py --controller fixed_pkji
+python scripts\evaluate.py --controller queue_rule
+python scripts\run_episode.py --scenario unbalanced --seed 60 --controller fixed_pkji --gui
+```
+
+## Roadmap
+
+- [x] Simulator, intersection and logging
+- [x] Scenario generator (420 seeded route files) and train/validation/test split
+- [x] Baselines: PKJI 2023 fixed timer and queue rule
+- [ ] Gymnasium environment
+- [ ] DQN training and tuning on validation
+- [ ] Final evaluation on the locked test split, including the stress scenario
+- [ ] Web app with side-by-side replay
+
+## References
+
+- Direktorat Jenderal Bina Marga (2023). *Pedoman Kapasitas Jalan Indonesia* (No. 09/P/BM/2023).
+- Webster, F. V. (1958). *Traffic signal settings*. Road Research Technical Paper No. 39.
+- Lopez, P. A. et al. (2018). Microscopic Traffic Simulation using SUMO. *IEEE ITSC*.
