@@ -18,13 +18,13 @@ Deep Q-Network (DQN) traffic signal controller for an isolated four-approach urb
 - **Primary Target (`< 24.5 s` and `>= 10%` better than `fixed_pkji`):** Achieved **`20.31 s`** (**`-43.5%`** vs. `fixed_pkji`) with zero throughput loss (`672.76` vs. `671.05`) and **`-84.5%`** lower unserved backlog.
 - **Secondary Benchmark (`queue_rule`):** Outperforms `queue_rule` by **`-16.6%`** overall and **`-25.0%`** on unseen `stress` congestion.
 
-*Validation Model Comparison
+# Validation Model Comparison
 ![Validation Model Selection](results/figures/fig1_validation_model_selection.png)
 
-*DQN Learning Curve Convergency
+# DQN Learning Curve Convergency
 ![DQN Learning Curves](results/figures/fig2_dqn_learning_curves.png)
 
-*Testing Performance on 5 Scenarios
+# Testing Performance on 5 Scenarios
 ![Held-Out Test Scenario Comparison](results/figures/fig3_test_scenario_comparison.png)
 
 ---
